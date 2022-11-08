@@ -4,5 +4,21 @@
   </head>
   <body>
     <h1 class="post-title">Robot Likes Cycling</h1>
+    <div id="data">
+    </div>
+
+    <script>
+      var rides = [];
+      fetch('/rides.json')
+        .then((response) => response.json())
+        .then((data) => {
+          rides = data;
+
+          let element = document.getElementById("data");
+          element.innerHTML = rides.toString();
+
+          console.log(data);
+        });
+    </script>
   </body>
 </html>
