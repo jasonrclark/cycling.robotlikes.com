@@ -1,10 +1,13 @@
 <html>
   <head>
     <link rel="stylesheet" href="https://jasonrclark.com/css/pixyll.css" type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.js"></script>
   </head>
   <body>
     <h1 class="post-title">Robot Likes Cycling</h1>
-    <div id="data">
+
+    <div style="height:200px;width:50%">
+      <canvas id="ridesChart"></canvas>
     </div>
 
     <script>
@@ -14,11 +17,31 @@
         .then((data) => {
           rides = data;
 
-          let element = document.getElementById("data");
-          element.innerHTML = rides.toString();
-
-          console.log(data);
+          const ctx = document.getElementById('ridesChart');
+          const myChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+              datasets: [{
+                  label: 'Ride Durations',
+                  data: rides,
+                  borderColor: 'black',
+                  borderWidth: 1
+              }]
+            },
+            options: {
+              parsing: {
+                xAxisKey: 'ride_date',
+                yAxisKey: 'distance',
+              },
+              scales: {
+                y: {
+                  beginAtZero: true
+                }
+              }
+            }
+          });
         });
+
     </script>
   </body>
 </html>
