@@ -50,12 +50,12 @@
             yAxisKey: 'distance',
           });
 
-          var total = 0;
+          var totalDistance = 0;
           const totals = rides.map(ride => {
-            total += ride.distance;
+            totalDistance += ride.distance;
             return {
               ...ride,
-              total,
+              total: totalDistance,
             };
           });
 
@@ -66,6 +66,20 @@
             type: 'line',
             yAxisKey: 'total',
           });
+
+          const maxDistance = Math.max(...rides.map(r => r.distance));
+          const maxText = document.getElementById('maxDistance');
+          maxText.innerHTML = maxDistance + " miles";
+
+          const countDistance = rides.length;
+          const countText = document.getElementById('countDistance');
+          countText.innerHTML = countDistance;
+
+          const averageText = document.getElementById('averageDistance');
+          averageText.innerHTML = (totalDistance / countDistance).toFixed(2) + " miles";
+
+          const totalText = document.getElementById('totalDistance');
+          totalText.innerHTML = totalDistance.toFixed(2) + " miles";
         });
 
     </script>
