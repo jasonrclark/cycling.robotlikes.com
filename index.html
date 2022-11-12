@@ -1,19 +1,37 @@
 <html>
   <head>
     <link rel="stylesheet" href="https://jasonrclark.com/css/pixyll.css" type="text/css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.js"></script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.js"></script>
     <script src="./code.js"></script>
+
+    <style>
+      h3 span {
+        font-weight:normal;
+      }
+    </style>
   </head>
-  <body>
+  <body style="width:1000px;">
     <h1 class="post-title">Robot Likes Cycling</h1>
 
-    <div style="height:400px;width:800px">
-      <canvas id="perDistanceChart"></canvas>
+    <div>
+      <div style="float:left;height:400px;width:600px">
+        <canvas id="perDistanceChart"></canvas>
+      </div>
+      <div style="padding:20px;float:left;">
+        <h3>Max: <span id="maxDistance">boo</span></h3>
+        <h3>Average: <span id="averageDistance">boo</span></h3>
+        <h3>Count: <span id="countDistance">boo</span></h3>
+      </div>
     </div>
 
-    <div style="height:400px;width:800px">
-      <canvas id="totalDistanceChart"></canvas>
+    <div>
+      <div style="float:left;height:400px;width:600px">
+        <canvas id="totalDistanceChart"></canvas>
+      </div>
+      <div style="padding:20px;float:left;">
+        <h3>Total: <span id="totalDistance">boo</span></h3>
+      </div>
     </div>
 
     <script>
