@@ -22,9 +22,12 @@ function chart({elementName, title, type, yAxisKey, data}) {
         yAxisKey,
       },
       scales: {
+        x: {
+          type: 'time'
+        },
         y: {
           beginAtZero: true
-        }
+        },
       }
     }
   });
