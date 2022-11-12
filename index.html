@@ -2,12 +2,18 @@
   <head>
     <link rel="stylesheet" href="https://jasonrclark.com/css/pixyll.css" type="text/css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.js"></script>
+
+    <script src="./code.js"></script>
   </head>
   <body>
     <h1 class="post-title">Robot Likes Cycling</h1>
 
-    <div style="height:200px;width:50%">
-      <canvas id="ridesChart"></canvas>
+    <div style="height:400px;width:50%">
+      <canvas id="perDistanceChart"></canvas>
+    </div>
+
+    <div style="height:400px;width:50%">
+      <canvas id="totalDistanceChart"></canvas>
     </div>
 
     <script>
@@ -16,29 +22,31 @@
         .then((response) => response.json())
         .then((data) => {
           rides = data;
+          rides.sort(rideDateComparer);
 
-          const ctx = document.getElementById('ridesChart');
-          const myChart = new Chart(ctx, {
+          chart({
+            data: rides,
+            elementName: 'perDistanceChart',
+            title: 'Ride Distances (miles)',
             type: 'bar',
-            data: {
-              datasets: [{
-                  label: 'Ride Durations',
-                  data: rides,
-                  borderColor: 'black',
-                  borderWidth: 1
-              }]
-            },
-            options: {
-              parsing: {
-                xAxisKey: 'ride_date',
-                yAxisKey: 'distance',
-              },
-              scales: {
-                y: {
-                  beginAtZero: true
-                }
-              }
-            }
+            yAxisKey: 'distance',
+          });
+
+          var total = 0;
+          const totals = rides.map(ride => {
+            total += ride.distance;
+            return {
+              ...ride,
+              total,
+            };
+          });
+
+          chart({
+            data: totals,
+            elementName: 'totalDistanceChart',
+            title: 'Total Distance (miles)',
+            type: 'line',
+            yAxisKey: 'total',
           });
         });
 
