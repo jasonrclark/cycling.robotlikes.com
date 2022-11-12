@@ -5,8 +5,8 @@ function rideDateComparer(a, b) {
 }
 
 function chart({elementName, title, type, yAxisKey, data}) {
-  const perDistance = document.getElementById(elementName);
-  new Chart(perDistance, {
+  const element = document.getElementById(elementName);
+  new Chart(element, {
     type,
     data: {
       datasets: [{
@@ -14,6 +14,7 @@ function chart({elementName, title, type, yAxisKey, data}) {
         data,
         borderColor: 'black',
         borderWidth: 1,
+        barThickness: 1,
       }]
     },
     options: {
