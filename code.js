@@ -34,9 +34,10 @@ function chart({elementName, title, type, yAxisKey, data}) {
   });
 }
 
-function vanity({elementName, value, unit}) {
+function vanity({elementName, value, unit, fixed}) {
+  fixed = (fixed === undefined ? 2 : fixed);
   const element = document.getElementById(elementName);
-  element.innerHTML = value.toFixed(2) + " " + unit;
+  element.innerHTML = value.toFixed(fixed) + " " + (unit || "");
 }
 
 function vanityDistance({elementName, value}) {
