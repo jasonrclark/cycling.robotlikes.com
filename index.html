@@ -12,16 +12,27 @@
       h3 span {
         font-weight:normal;
       }
+
+      .chart {
+        float:left;
+        height:325px;
+        width:600px
+      }
+
+      .vanity {
+        padding:20px;
+        float:left;
+      }
     </style>
   </head>
   <body style="padding:20px;width:1100px;">
     <h1 class="post-title">Robot Likes Cycling</h1>
 
     <div>
-      <div style="float:left;height:400px;width:600px">
+      <div class="chart">
         <canvas id="perDistanceChart"></canvas>
       </div>
-      <div style="padding:20px;float:left;">
+      <div class="vanity">
         <h3>Max: <span id="maxDistance">boo</span></h3>
         <h3>Ave: <span id="averageDistance">boo</span></h3>
         <h3>Count: <span id="countDistance">boo</span></h3>
@@ -29,11 +40,21 @@
     </div>
 
     <div>
-      <div style="float:left;height:400px;width:600px">
+      <div class="chart">
         <canvas id="totalDistanceChart"></canvas>
       </div>
-      <div style="padding:20px;float:left;">
+      <div class="vanity">
         <h3>Total: <span id="totalDistance">boo</span></h3>
+      </div>
+    </div>
+
+    <div>
+      <div class="chart">
+        <canvas id="averageSpeedChart"></canvas>
+      </div>
+      <div class="vanity">
+        <h3>Average: <span id="averageSpeed">boo</span></h3>
+        <h3>Max: <span id="maxSpeed">boo</span></h3>
       </div>
     </div>
 
@@ -45,14 +66,6 @@
           rides = data;
           rides.sort(rideDateComparer);
 
-          chart({
-            data: rides,
-            elementName: 'perDistanceChart',
-            title: 'Ride Distance (miles)',
-            type: 'bar',
-            yAxisKey: 'distance',
-          });
-
           var totalDistance = 0;
           const totals = rides.map(ride => {
             totalDistance += ride.distance;
@@ -63,6 +76,14 @@
           });
 
           chart({
+            data: rides,
+            elementName: 'perDistanceChart',
+            title: 'Ride Distance (miles)',
+            type: 'bar',
+            yAxisKey: 'distance',
+          });
+
+          chart({
             data: totals,
             elementName: 'totalDistanceChart',
             title: 'Total Distance (miles)',
@@ -70,19 +91,44 @@
             yAxisKey: 'total',
           });
 
-          const maxDistance = Math.max(...rides.map(r => r.distance));
-          const maxText = document.getElementById('maxDistance');
-          maxText.innerHTML = maxDistance + " miles";
+          chart({
+            data: rides,
+            elementName: 'averageSpeedChart',
+            title: 'Average Speed (mph)',
+            type: 'scatter',
+            yAxisKey: 'average_speed',
+          });
 
-          const countDistance = rides.length;
-          const countText = document.getElementById('countDistance');
-          countText.innerHTML = countDistance;
+          vanityDistance({
+            elementName: 'maxDistance',
+            value: Math.max(...rides.map(r => r.distance)),
+          });
 
-          const averageText = document.getElementById('averageDistance');
-          averageText.innerHTML = (totalDistance / countDistance).toFixed(2) + " miles";
+          vanity({
+            elementName: 'countDistance',
+            value: rides.length,
+            unit: '',
+          });
 
-          const totalText = document.getElementById('totalDistance');
-          totalText.innerHTML = totalDistance.toFixed(2) + " miles";
+          vanityDistance({
+            elementName: 'averageDistance',
+            value: (totalDistance / rides.length),
+          });
+
+          vanityDistance({
+            elementName: 'totalDistance',
+            value: totalDistance,
+          });
+
+          vanitySpeed({
+            elementName: 'averageSpeed',
+            value: (rides.reduce((prior, ride) => prior + ride.average_speed, 0) / rides.length),
+          });
+
+          vanitySpeed({
+            elementName: 'maxSpeed',
+            value: Math.max(...rides.map(r => r.max_speed)),
+          });
         });
 
     </script>
