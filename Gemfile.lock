@@ -65,15 +65,18 @@ GEM
       hashie
     tzinfo (2.0.5)
       concurrent-ruby (~> 1.0)
+    webrick (1.7.0)
 
 PLATFORMS
   x86_64-darwin-19
+  x86_64-linux
 
 DEPENDENCIES
   dotenv
   pry
   strava-ruby-cli
   strava-ruby-client
+  webrick
 
 BUNDLED WITH
    2.3.25

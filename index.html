@@ -63,7 +63,17 @@
       fetch('/rides.json')
         .then((response) => response.json())
         .then((data) => {
-          rides = data;
+          rides = data.map((ride) => {
+            if (ride.distance_meters !== undefined) {
+              return {
+                ...ride,
+                distance: ride.distance_meters * 0.000621371,
+              };
+            } else {
+              return ride;
+            }
+          });
+
           rides.sort(rideDateComparer);
 
           var totalDistance = 0;
