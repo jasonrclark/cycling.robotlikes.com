@@ -21124,5 +21124,906 @@
     "updated_at": "2018-07-05T21:29:50.58748",
     "duration": 1692,
     "bike_id": 2
+  },
+
+  {
+    "ride_date": "2022-11-14",
+    "duration": 640,
+    "average_speed": 5.129,
+    "distance_meters": 3251.8,
+    "created_at": "2022-11-14 12:33:22 UTC",
+    "where_to": "Lunch Ride",
+    "max_speed": 13.304
+  },
+  {
+    "ride_date": "2022-10-23",
+    "duration": 2993,
+    "average_speed": 3.451,
+    "distance_meters": 6015.2,
+    "created_at": "2022-10-23 15:27:13 UTC",
+    "where_to": "Afternoon Ride",
+    "max_speed": 8.594
+  },
+  {
+    "ride_date": "2022-10-09",
+    "duration": 3164,
+    "average_speed": 3.151,
+    "distance_meters": 4808.8,
+    "created_at": "2022-10-09 12:58:50 UTC",
+    "where_to": "Hunting for Pirate Treasure",
+    "max_speed": 6.816
+  },
+  {
+    "ride_date": "2022-06-18",
+    "duration": 2179,
+    "average_speed": 4.205,
+    "distance_meters": 6075.9,
+    "created_at": "2022-06-18 08:18:57 UTC",
+    "where_to": "Morning Ride",
+    "max_speed": 11.557
+  },
+  {
+    "ride_date": "2022-06-17",
+    "duration": 2075,
+    "average_speed": 4.24,
+    "distance_meters": 6003.7,
+    "created_at": "2022-06-17 07:01:35 UTC",
+    "where_to": "Morning Ride",
+    "max_speed": 7.636
+  },
+  {
+    "ride_date": "2022-06-16",
+    "duration": 926,
+    "average_speed": 4.473,
+    "distance_meters": 3072.9,
+    "created_at": "2022-06-16 21:02:52 UTC",
+    "where_to": "Night Ride",
+    "max_speed": 13.084
+  },
+  {
+    "ride_date": "2022-06-16",
+    "duration": 2598,
+    "average_speed": 3.924,
+    "distance_meters": 7001.1,
+    "created_at": "2022-06-16 09:37:32 UTC",
+    "where_to": "Morning Ride",
+    "max_speed": 18.91
+  },
+  {
+    "ride_date": "2022-06-15",
+    "duration": 1941,
+    "average_speed": 4.188,
+    "distance_meters": 5985.2,
+    "created_at": "2022-06-15 20:35:37 UTC",
+    "where_to": "Night Ride",
+    "max_speed": 10.758
+  },
+  {
+    "ride_date": "2022-06-15",
+    "duration": 1837,
+    "average_speed": 4.08,
+    "distance_meters": 6096.2,
+    "created_at": "2022-06-15 08:31:30 UTC",
+    "where_to": "Morning Ride",
+    "max_speed": 12.754
+  },
+  {
+    "ride_date": "2022-02-06",
+    "duration": 2566,
+    "average_speed": 4.84,
+    "distance_meters": 12041,
+    "created_at": "2022-02-06 15:08:43 UTC",
+    "where_to": "Afternoon Ride",
+    "max_speed": 12.38
+  },
+  {
+    "ride_date": "2021-05-29",
+    "duration": 4184,
+    "average_speed": 1.4,
+    "distance_meters": 5128.3,
+    "created_at": "2021-05-29 16:38:45 UTC",
+    "where_to": "5k with Cora",
+    "max_speed": 3.9
+  },
+  {
+    "ride_date": "2021-04-11",
+    "duration": 3263,
+    "average_speed": 4.941,
+    "distance_meters": 15019.6,
+    "created_at": "2021-04-11 16:26:33 UTC",
+    "where_to": "Afternoon Ride",
+    "max_speed": 18.5
+  },
+  {
+    "ride_date": "2021-04-02",
+    "duration": 1308,
+    "average_speed": 4.688,
+    "distance_meters": 5466.5,
+    "created_at": "2021-04-02 17:41:30 UTC",
+    "where_to": "Afternoon Ride",
+    "max_speed": 9.6
+  },
+  {
+    "ride_date": "2021-03-23",
+    "duration": 2574,
+    "average_speed": 4.791,
+    "distance_meters": 10505.7,
+    "created_at": "2021-03-23 08:48:19 UTC",
+    "where_to": "Morning Ride",
+    "max_speed": 11.2
+  },
+  {
+    "ride_date": "2021-03-21",
+    "duration": 1279,
+    "average_speed": 4.239,
+    "distance_meters": 3878.5,
+    "created_at": "2021-03-21 15:35:24 UTC",
+    "where_to": "Afternoon Ride",
+    "max_speed": 7.8
+  },
+  {
+    "ride_date": "2019-11-19",
+    "duration": 1827,
+    "average_speed": 3.917,
+    "distance_meters": 5844.5,
+    "created_at": "2019-11-19 09:02:10 UTC",
+    "where_to": "Morning Ride",
+    "max_speed": 8.6
+  },
+  {
+    "ride_date": "2019-11-18",
+    "duration": 1826,
+    "average_speed": 3.744,
+    "distance_meters": 6051.1,
+    "created_at": "2019-11-18 09:02:53 UTC",
+    "where_to": "Morning Ride",
+    "max_speed": 8.8
+  },
+  {
+    "ride_date": "2019-11-13",
+    "duration": 1392,
+    "average_speed": 4.676,
+    "distance_meters": 5362.9,
+    "created_at": "2019-11-13 16:35:12 UTC",
+    "where_to": "Afternoon Ride",
+    "max_speed": 10
+  },
+  {
+    "ride_date": "2019-10-31",
+    "duration": 1896,
+    "average_speed": 3.614,
+    "distance_meters": 5989,
+    "created_at": "2019-10-31 09:02:36 UTC",
+    "where_to": "Morning Ride",
+    "max_speed": 9.9
+  },
+  {
+    "ride_date": "2019-10-30",
+    "duration": 1724,
+    "average_speed": 3.976,
+    "distance_meters": 5709.1,
+    "created_at": "2019-10-30 09:01:41 UTC",
+    "where_to": "Morning Ride",
+    "max_speed": 8.8
+  },
+  {
+    "ride_date": "2019-10-29",
+    "duration": 1690,
+    "average_speed": 3.791,
+    "distance_meters": 5296.1,
+    "created_at": "2019-10-29 08:19:15 UTC",
+    "where_to": "Morning Ride",
+    "max_speed": 8
+  },
+  {
+    "ride_date": "2019-10-28",
+    "duration": 1679,
+    "average_speed": 3.82,
+    "distance_meters": 5264.6,
+    "created_at": "2019-10-28 08:11:12 UTC",
+    "where_to": "Morning Ride",
+    "max_speed": 8.2
+  },
+  {
+    "ride_date": "2019-10-24",
+    "duration": 1751,
+    "average_speed": 4.136,
+    "distance_meters": 5807.2,
+    "created_at": "2019-10-24 09:02:51 UTC",
+    "where_to": "Morning Ride",
+    "max_speed": 8.6
+  },
+  {
+    "ride_date": "2019-10-21",
+    "duration": 1284,
+    "average_speed": 4.694,
+    "distance_meters": 5196,
+    "created_at": "2019-10-21 15:53:39 UTC",
+    "where_to": "Afternoon Ride",
+    "max_speed": 9.8
+  },
+  {
+    "ride_date": "2019-10-17",
+    "duration": 1058,
+    "average_speed": 4.524,
+    "distance_meters": 4591.8,
+    "created_at": "2019-10-17 16:40:30 UTC",
+    "where_to": "Afternoon Ride",
+    "max_speed": 9
+  },
+  {
+    "ride_date": "2019-10-17",
+    "duration": 1681,
+    "average_speed": 4.006,
+    "distance_meters": 5648.9,
+    "created_at": "2019-10-17 09:01:38 UTC",
+    "where_to": "Morning Ride",
+    "max_speed": 9.3
+  },
+  {
+    "ride_date": "2019-10-16",
+    "duration": 1344,
+    "average_speed": 3.851,
+    "distance_meters": 4632.9,
+    "created_at": "2019-10-16 18:21:01 UTC",
+    "where_to": "Evening Ride",
+    "max_speed": 8.9
+  },
+  {
+    "ride_date": "2019-10-15",
+    "duration": 1578,
+    "average_speed": 3.974,
+    "distance_meters": 5607.7,
+    "created_at": "2019-10-15 09:06:30 UTC",
+    "where_to": "Morning Ride",
+    "max_speed": 8.5
+  },
+  {
+    "ride_date": "2019-10-10",
+    "duration": 1197,
+    "average_speed": 4.425,
+    "distance_meters": 4504.5,
+    "created_at": "2019-10-10 18:48:40 UTC",
+    "where_to": "Evening Ride",
+    "max_speed": 9.7
+  },
+  {
+    "ride_date": "2019-10-10",
+    "duration": 1644,
+    "average_speed": 4.13,
+    "distance_meters": 5661.8,
+    "created_at": "2019-10-10 09:04:28 UTC",
+    "where_to": "Morning Ride",
+    "max_speed": 9.1
+  },
+  {
+    "ride_date": "2019-10-09",
+    "duration": 1383,
+    "average_speed": 4.517,
+    "distance_meters": 5275.9,
+    "created_at": "2019-10-09 15:22:31 UTC",
+    "where_to": "Afternoon Ride",
+    "max_speed": 11.1
+  },
+  {
+    "ride_date": "2019-10-09",
+    "duration": 1964,
+    "average_speed": 3.67,
+    "distance_meters": 5816.7,
+    "created_at": "2019-10-09 09:02:59 UTC",
+    "where_to": "Morning Ride",
+    "max_speed": 8.4
+  },
+  {
+    "ride_date": "2019-10-07",
+    "duration": 1840,
+    "average_speed": 3.708,
+    "distance_meters": 5584.1,
+    "created_at": "2019-10-07 09:03:36 UTC",
+    "where_to": "Morning Ride",
+    "max_speed": 8.9
+  },
+  {
+    "ride_date": "2019-10-03",
+    "duration": 1102,
+    "average_speed": 4.602,
+    "distance_meters": 4169.2,
+    "created_at": "2019-10-03 18:28:36 UTC",
+    "where_to": "Evening Ride",
+    "max_speed": 8.9
+  },
+  {
+    "ride_date": "2019-10-03",
+    "duration": 1748,
+    "average_speed": 3.881,
+    "distance_meters": 5677.5,
+    "created_at": "2019-10-03 09:05:03 UTC",
+    "where_to": "Morning Ride",
+    "max_speed": 14.3
+  },
+  {
+    "ride_date": "2019-09-30",
+    "duration": 1214,
+    "average_speed": 3.989,
+    "distance_meters": 4631.3,
+    "created_at": "2019-09-30 18:33:05 UTC",
+    "where_to": "Evening Ride",
+    "max_speed": 10.8
+  },
+  {
+    "ride_date": "2019-09-30",
+    "duration": 1780,
+    "average_speed": 3.54,
+    "distance_meters": 5596.6,
+    "created_at": "2019-09-30 09:04:22 UTC",
+    "where_to": "Morning Ride",
+    "max_speed": 7.6
+  },
+  {
+    "ride_date": "2019-09-26",
+    "duration": 1774,
+    "average_speed": 3.616,
+    "distance_meters": 5557.1,
+    "created_at": "2019-09-26 09:06:14 UTC",
+    "where_to": "Morning Ride",
+    "max_speed": 8.5
+  },
+  {
+    "ride_date": "2019-09-25",
+    "duration": 1369,
+    "average_speed": 4.192,
+    "distance_meters": 5114.5,
+    "created_at": "2019-09-25 18:39:41 UTC",
+    "where_to": "Evening Ride",
+    "max_speed": 11.5
+  },
+  {
+    "ride_date": "2019-09-25",
+    "duration": 1894,
+    "average_speed": 3.675,
+    "distance_meters": 5434.8,
+    "created_at": "2019-09-25 09:03:38 UTC",
+    "where_to": "Morning Commute ",
+    "max_speed": 8.3
+  },
+  {
+    "ride_date": "2019-09-23",
+    "duration": 138120,
+    "average_speed": 4.023,
+    "distance_meters": 4996.4,
+    "created_at": "2019-09-23 18:41:29 UTC",
+    "where_to": "Evening Ride",
+    "max_speed": 9.9
+  },
+  {
+    "ride_date": "2019-09-23",
+    "duration": 1907,
+    "average_speed": 3.465,
+    "distance_meters": 5495.6,
+    "created_at": "2019-09-23 09:04:42 UTC",
+    "where_to": "Morning Ride",
+    "max_speed": 7.7
+  },
+  {
+    "ride_date": "2019-09-20",
+    "duration": 1252,
+    "average_speed": 4.166,
+    "distance_meters": 4732.6,
+    "created_at": "2019-09-20 19:11:17 UTC",
+    "where_to": "Afternoon Commute ",
+    "max_speed": 10.4
+  },
+  {
+    "ride_date": "2019-09-20",
+    "duration": 1619,
+    "average_speed": 3.77,
+    "distance_meters": 5481.6,
+    "created_at": "2019-09-20 09:05:23 UTC",
+    "where_to": "Morning Commute ",
+    "max_speed": 8.5
+  },
+  {
+    "ride_date": "2019-09-19",
+    "duration": 1808,
+    "average_speed": 3.42,
+    "distance_meters": 5491.8,
+    "created_at": "2019-09-19 09:04:51 UTC",
+    "where_to": "Morning Commute ",
+    "max_speed": 9
+  },
+  {
+    "ride_date": "2019-09-18",
+    "duration": 1910,
+    "average_speed": 3.52,
+    "distance_meters": 5537.5,
+    "created_at": "2019-09-18 09:05:18 UTC",
+    "where_to": "Morning Commute ",
+    "max_speed": 9
+  },
+  {
+    "ride_date": "2019-09-17",
+    "duration": 1409,
+    "average_speed": 3.843,
+    "distance_meters": 4999.2,
+    "created_at": "2019-09-17 18:08:55 UTC",
+    "where_to": "Afternoon Commute ",
+    "max_speed": 9.9
+  },
+  {
+    "ride_date": "2019-09-17",
+    "duration": 1623,
+    "average_speed": 3.724,
+    "distance_meters": 5313.7,
+    "created_at": "2019-09-17 09:03:33 UTC",
+    "where_to": "Morning Commute ",
+    "max_speed": 7.2
+  },
+  {
+    "ride_date": "2019-09-16",
+    "duration": 1428,
+    "average_speed": 4.049,
+    "distance_meters": 5032.4,
+    "created_at": "2019-09-16 19:04:48 UTC",
+    "where_to": "Afternoon Commute ",
+    "max_speed": 12
+  },
+  {
+    "ride_date": "2019-09-16",
+    "duration": 1893,
+    "average_speed": 3.357,
+    "distance_meters": 5508.1,
+    "created_at": "2019-09-16 09:05:08 UTC",
+    "where_to": "Morning Commute ",
+    "max_speed": 8.3
+  },
+  {
+    "ride_date": "2019-09-13",
+    "duration": 1507,
+    "average_speed": 3.576,
+    "distance_meters": 4799.4,
+    "created_at": "2019-09-13 18:15:41 UTC",
+    "where_to": "Afternoon Commute ",
+    "max_speed": 10.9
+  },
+  {
+    "ride_date": "2019-09-13",
+    "duration": 1564,
+    "average_speed": 3.48,
+    "distance_meters": 4736.7,
+    "created_at": "2019-09-13 09:07:27 UTC",
+    "where_to": "Morning Commute ",
+    "max_speed": 7.8
+  },
+  {
+    "ride_date": "2019-09-12",
+    "duration": 1151,
+    "average_speed": 3.857,
+    "distance_meters": 3791.3,
+    "created_at": "2019-09-12 18:34:18 UTC",
+    "where_to": "Afternoon Commute ",
+    "max_speed": 13
+  },
+  {
+    "ride_date": "2019-09-12",
+    "duration": 1786,
+    "average_speed": 3.09,
+    "distance_meters": 5147.2,
+    "created_at": "2019-09-12 09:21:05 UTC",
+    "where_to": "Morning Commute ",
+    "max_speed": 9.9
+  },
+  {
+    "ride_date": "2019-09-10",
+    "duration": 1809,
+    "average_speed": 3.028,
+    "distance_meters": 5047.4,
+    "created_at": "2019-09-10 08:14:04 UTC",
+    "where_to": "Morning Commute ",
+    "max_speed": 7.7
+  },
+  {
+    "ride_date": "2019-09-09",
+    "duration": 1471,
+    "average_speed": 3.576,
+    "distance_meters": 5074.2,
+    "created_at": "2019-09-09 18:47:02 UTC",
+    "where_to": "Afternoon Commute ",
+    "max_speed": 10.8
+  },
+  {
+    "ride_date": "2019-09-06",
+    "duration": 1738,
+    "average_speed": 3.531,
+    "distance_meters": 5098.3,
+    "created_at": "2019-09-06 07:52:46 UTC",
+    "where_to": "Morning Commute ",
+    "max_speed": 8.5
+  },
+  {
+    "ride_date": "2019-09-05",
+    "duration": 1404,
+    "average_speed": 4.122,
+    "distance_meters": 5041,
+    "created_at": "2019-09-05 18:39:10 UTC",
+    "where_to": "Afternoon Commute ",
+    "max_speed": 11.3
+  },
+  {
+    "ride_date": "2019-09-05",
+    "duration": 1328,
+    "average_speed": 3.851,
+    "distance_meters": 4890.4,
+    "created_at": "2019-09-05 08:12:20 UTC",
+    "where_to": "Morning Commute ",
+    "max_speed": 9.9
+  },
+  {
+    "ride_date": "2019-09-04",
+    "duration": 1503,
+    "average_speed": 3.759,
+    "distance_meters": 5100.6,
+    "created_at": "2019-09-04 18:08:04 UTC",
+    "where_to": "Afternoon Commute ",
+    "max_speed": 9.6
+  },
+  {
+    "ride_date": "2019-09-04",
+    "duration": 1288,
+    "average_speed": 3.473,
+    "distance_meters": 4219.4,
+    "created_at": "2019-09-04 10:45:41 UTC",
+    "where_to": "Morning Commute ",
+    "max_speed": 8.4
+  },
+  {
+    "ride_date": "2019-08-28",
+    "duration": 1130,
+    "average_speed": 4.281,
+    "distance_meters": 4216.8,
+    "created_at": "2019-08-28 17:08:03 UTC",
+    "where_to": "Afternoon Commute ",
+    "max_speed": 8.1
+  },
+  {
+    "ride_date": "2019-08-28",
+    "duration": 1716,
+    "average_speed": 3.453,
+    "distance_meters": 5159.3,
+    "created_at": "2019-08-28 08:09:44 UTC",
+    "where_to": "Morning Commute ",
+    "max_speed": 9.3
+  },
+  {
+    "ride_date": "2019-08-27",
+    "duration": 1118,
+    "average_speed": 4.124,
+    "distance_meters": 4099.5,
+    "created_at": "2019-08-27 18:54:19 UTC",
+    "where_to": "Afternoon Commute ",
+    "max_speed": 10.3
+  },
+  {
+    "ride_date": "2019-08-26",
+    "duration": 1429,
+    "average_speed": 3.753,
+    "distance_meters": 5051.6,
+    "created_at": "2019-08-26 18:11:35 UTC",
+    "where_to": "Afternoon Commute ",
+    "max_speed": 9.8
+  },
+  {
+    "ride_date": "2019-08-26",
+    "duration": 1528,
+    "average_speed": 3.613,
+    "distance_meters": 5061.6,
+    "created_at": "2019-08-26 07:54:41 UTC",
+    "where_to": "Morning Commute ",
+    "max_speed": 7.8
+  },
+  {
+    "ride_date": "2019-08-23",
+    "duration": 901,
+    "average_speed": 3.622,
+    "distance_meters": 2701.8,
+    "created_at": "2019-08-23 18:12:17 UTC",
+    "where_to": "Afternoon Commute ",
+    "max_speed": 9.3
+  },
+  {
+    "ride_date": "2019-08-23",
+    "duration": 1417,
+    "average_speed": 3.809,
+    "distance_meters": 4966.7,
+    "created_at": "2019-08-23 08:08:41 UTC",
+    "where_to": "Morning Commute",
+    "max_speed": 7.7
+  },
+  {
+    "ride_date": "2019-08-22",
+    "duration": 1774,
+    "average_speed": 3.283,
+    "distance_meters": 5135.3,
+    "created_at": "2019-08-22 07:53:50 UTC",
+    "where_to": "Morning Commute ",
+    "max_speed": 7.2
+  },
+  {
+    "ride_date": "2019-08-21",
+    "duration": 1340,
+    "average_speed": 3.718,
+    "distance_meters": 4614.6,
+    "created_at": "2019-08-21 08:18:36 UTC",
+    "where_to": "Morning Commute",
+    "max_speed": 9.1
+  },
+  {
+    "ride_date": "2017-07-20",
+    "duration": 28084,
+    "average_speed": 6.091,
+    "distance_meters": 12345.6,
+    "created_at": "2017-07-20 17:01:46 UTC",
+    "where_to": "Afternoon Ride",
+    "max_speed": 22.6
+  },
+  {
+    "ride_date": "2017-07-20",
+    "duration": 2175,
+    "average_speed": 6.566,
+    "distance_meters": 12101.7,
+    "created_at": "2017-07-20 07:33:50 UTC",
+    "where_to": "Morning Ride",
+    "max_speed": 12.6
+  },
+  {
+    "ride_date": "2017-07-16",
+    "duration": 31454,
+    "average_speed": 7.313,
+    "distance_meters": 169086,
+    "created_at": "2017-07-16 05:54:30 UTC",
+    "where_to": "STP II",
+    "max_speed": 14.9
+  },
+  {
+    "ride_date": "2017-07-15",
+    "duration": 26919,
+    "average_speed": 7.335,
+    "distance_meters": 160714,
+    "created_at": "2017-07-15 04:53:30 UTC",
+    "where_to": "STP I",
+    "max_speed": 13.9
+  },
+  {
+    "ride_date": "2017-07-12",
+    "duration": 1943,
+    "average_speed": 6.795,
+    "distance_meters": 11979.5,
+    "created_at": "2017-07-12 17:22:26 UTC",
+    "where_to": "Afternoon Ride",
+    "max_speed": 11.4
+  },
+  {
+    "ride_date": "2017-07-12",
+    "duration": 1703,
+    "average_speed": 7.307,
+    "distance_meters": 11917,
+    "created_at": "2017-07-12 07:11:40 UTC",
+    "where_to": "Morning Ride",
+    "max_speed": 12.8
+  },
+  {
+    "ride_date": "2017-07-11",
+    "duration": 2063,
+    "average_speed": 6.529,
+    "distance_meters": 11961.9,
+    "created_at": "2017-07-11 17:37:18 UTC",
+    "where_to": "Afternoon Ride",
+    "max_speed": 11.6
+  },
+  {
+    "ride_date": "2017-07-11",
+    "duration": 1800,
+    "average_speed": 7.073,
+    "distance_meters": 11960.6,
+    "created_at": "2017-07-11 07:56:28 UTC",
+    "where_to": "Morning Ride",
+    "max_speed": 13.5
+  },
+  {
+    "ride_date": "2017-07-10",
+    "duration": 1954,
+    "average_speed": 6.396,
+    "distance_meters": 11774.9,
+    "created_at": "2017-07-10 17:06:38 UTC",
+    "where_to": "Afternoon Ride",
+    "max_speed": 11.3
+  },
+  {
+    "ride_date": "2017-07-10",
+    "duration": 1841,
+    "average_speed": 7.163,
+    "distance_meters": 11947.5,
+    "created_at": "2017-07-10 07:24:06 UTC",
+    "where_to": "Morning Ride",
+    "max_speed": 12.8
+  },
+  {
+    "ride_date": "2017-07-07",
+    "duration": 2071,
+    "average_speed": 6.576,
+    "distance_meters": 12001.9,
+    "created_at": "2017-07-07 17:31:45 UTC",
+    "where_to": "Afternoon Ride",
+    "max_speed": 11.2
+  },
+  {
+    "ride_date": "2017-07-07",
+    "duration": 1794,
+    "average_speed": 7.229,
+    "distance_meters": 11899.7,
+    "created_at": "2017-07-07 06:53:27 UTC",
+    "where_to": "Morning Ride",
+    "max_speed": 13
+  },
+  {
+    "ride_date": "2017-07-06",
+    "duration": 883,
+    "average_speed": 5.444,
+    "distance_meters": 4409.4,
+    "created_at": "2017-07-06 17:26:52 UTC",
+    "where_to": "Afternoon Ride",
+    "max_speed": 8
+  },
+  {
+    "ride_date": "2017-07-06",
+    "duration": 1838,
+    "average_speed": 7.4,
+    "distance_meters": 11936.3,
+    "created_at": "2017-07-06 07:15:56 UTC",
+    "where_to": "Morning Ride",
+    "max_speed": 13.9
+  },
+  {
+    "ride_date": "2017-07-05",
+    "duration": 1866,
+    "average_speed": 6.643,
+    "distance_meters": 11167.4,
+    "created_at": "2017-07-05 16:10:36 UTC",
+    "where_to": "Afternoon Ride",
+    "max_speed": 11.2
+  },
+  {
+    "ride_date": "2017-07-05",
+    "duration": 1803,
+    "average_speed": 7.38,
+    "distance_meters": 12044,
+    "created_at": "2017-07-05 07:29:38 UTC",
+    "where_to": "Morning Ride",
+    "max_speed": 13.8
+  },
+  {
+    "ride_date": "2017-06-30",
+    "duration": 2066,
+    "average_speed": 6.467,
+    "distance_meters": 11621.8,
+    "created_at": "2017-06-30 16:57:38 UTC",
+    "where_to": "Afternoon Ride",
+    "max_speed": 11.8
+  },
+  {
+    "ride_date": "2017-06-30",
+    "duration": 947,
+    "average_speed": 6.143,
+    "distance_meters": 4957,
+    "created_at": "2017-06-30 06:20:10 UTC",
+    "where_to": "Morning Ride",
+    "max_speed": 10.2
+  },
+  {
+    "ride_date": "2017-06-29",
+    "duration": 884,
+    "average_speed": 5.44,
+    "distance_meters": 4607.7,
+    "created_at": "2017-06-29 17:13:07 UTC",
+    "where_to": "Afternoon Ride",
+    "max_speed": 7.7
+  },
+  {
+    "ride_date": "2017-06-29",
+    "duration": 4678,
+    "average_speed": 5.81,
+    "distance_meters": 8669,
+    "created_at": "2017-06-29 06:45:59 UTC",
+    "where_to": "Morning Ride",
+    "max_speed": 11.8
+  },
+  {
+    "ride_date": "2017-06-28",
+    "duration": 852,
+    "average_speed": 5.32,
+    "distance_meters": 4532.6,
+    "created_at": "2017-06-28 17:20:27 UTC",
+    "where_to": "Afternoon Ride",
+    "max_speed": 7.7
+  },
+  {
+    "ride_date": "2017-06-28",
+    "duration": 884,
+    "average_speed": 5.922,
+    "distance_meters": 4956.8,
+    "created_at": "2017-06-28 06:55:11 UTC",
+    "where_to": "Morning Ride",
+    "max_speed": 10
+  },
+  {
+    "ride_date": "2017-06-27",
+    "duration": 1047,
+    "average_speed": 5.17,
+    "distance_meters": 3681.1,
+    "created_at": "2017-06-27 17:21:13 UTC",
+    "where_to": "Afternoon Ride",
+    "max_speed": 8.9
+  },
+  {
+    "ride_date": "2017-06-27",
+    "duration": 886,
+    "average_speed": 6.163,
+    "distance_meters": 4985.5,
+    "created_at": "2017-06-27 06:57:19 UTC",
+    "where_to": "Morning Ride",
+    "max_speed": 9.2
+  },
+  {
+    "ride_date": "2017-06-26",
+    "duration": 1032,
+    "average_speed": 5.47,
+    "distance_meters": 4781.2,
+    "created_at": "2017-06-26 17:21:23 UTC",
+    "where_to": "Afternoon Ride",
+    "max_speed": 8.6
+  },
+  {
+    "ride_date": "2017-06-26",
+    "duration": 1015,
+    "average_speed": 5.76,
+    "distance_meters": 5069.2,
+    "created_at": "2017-06-26 07:06:04 UTC",
+    "where_to": "Morning Ride",
+    "max_speed": 10.4
+  },
+  {
+    "ride_date": "2017-06-23",
+    "duration": 2126,
+    "average_speed": 6.358,
+    "distance_meters": 12073.6,
+    "created_at": "2017-06-23 17:50:25 UTC",
+    "where_to": "Afternoon Ride",
+    "max_speed": 10.9
+  },
+  {
+    "ride_date": "2017-06-23",
+    "duration": 6082,
+    "average_speed": 5.694,
+    "distance_meters": 9012.9,
+    "created_at": "2017-06-23 11:59:03 UTC",
+    "where_to": "Lunch Ride",
+    "max_speed": 9.5
+  },
+  {
+    "ride_date": "2017-06-22",
+    "duration": 1695,
+    "average_speed": 7.523,
+    "distance_meters": 11878.7,
+    "created_at": "2017-06-22 07:27:39 UTC",
+    "where_to": "Morning Ride",
+    "max_speed": 13.5
+  },
+  {
+    "ride_date": "2017-06-20",
+    "duration": 1465,
+    "average_speed": 6.033,
+    "distance_meters": 7499,
+    "created_at": "2017-06-20 16:53:18 UTC",
+    "where_to": "Afternoon Ride",
+    "max_speed": 11.6
   }
 ]

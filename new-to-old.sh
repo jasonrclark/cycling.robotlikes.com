@@ -1,0 +1,1 @@
+jq ".[] | { duration: .elapsed_time, average_speed: .average_speed, distance_meters: .distance, created_at: .start_date_local, where_to: .name, max_speed: .max_speed }" new-rides.json
