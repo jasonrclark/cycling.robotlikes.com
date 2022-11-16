@@ -29,7 +29,17 @@ function chart({elementName, title, type, yAxisKey, data}) {
         y: {
           beginAtZero: true
         },
-      }
+      },
+      plugins: {
+        zoom: {
+          zoom: {
+            drag: {
+              enabled: true
+            },
+            mode: 'x'
+          }
+        }
+      },
     }
   });
 }
