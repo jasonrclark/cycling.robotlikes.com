@@ -1,0 +1,37 @@
+#! /usr/bin/env ruby
+
+require 'json'
+require 'date'
+
+rides = JSON.parse(File.read("rides.json"))
+prior_ride = rides.max_by do |ride|
+  ride["created_at"]
+end
+
+date = DateTime.parse(prior_ride["created_at"])
+after = (date.to_time + 12 * 60 * 60).to_i
+
+cmd = "bundle exec strava \
+  -i 2388 -s #{ENV["STRAVA_CLIENT_SECRET"]} \
+  -p activity:read \
+  run 'client.athlete_activities(after: #{after}).to_json'"
+
+outs = `#{cmd}`
+
+new_rides = JSON.parse(outs)
+
+rides.concat(new_rides.map do |ride| {
+      "ride_date": ride["start_date_local"].gsub(/ .*/, ""),
+      "duration": ride["elapsed_time"],
+      "average_speed": (ride["average_speed"] * 2.23694).round(2),
+      "max_speed": (ride["max_speed"] * 2.23694).round(2),
+      "created_at": ride["start_date_local"],
+      "where_to": ride["name"],
+      "distance": (ride["distance"] * 0.000621371).round(2)
+    }
+  end
+)
+
+File.open("rides.json", "w") do |file|
+  file.write(JSON.pretty_generate(rides))
+end
