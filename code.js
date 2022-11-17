@@ -12,7 +12,7 @@ function chart({elementName, title, type, yAxisKey, data}) {
       datasets: [{
         label: title,
         data,
-        borderColor: 'black',
+        borderColor: '#0B2161',
         borderWidth: 1,
         barThickness: 1,
       }]
