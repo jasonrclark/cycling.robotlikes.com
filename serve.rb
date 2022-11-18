@@ -22,16 +22,7 @@ s.mount_proc '/auth' do |req, res|
     output += `git diff rides.json`
     output += `git add rides.json && git commit -m "Rides update" && git push origin main`
 
-    res.body = %(
-  <html>
-    <body>
-      <h3>You may close this window and return to your shell.</h3>
-      <pre>
-      #{output}
-      </pre>
-    <body>
-  </html>
-    )
+    res.body = output
   rescue => ex
     puts ex
   end
