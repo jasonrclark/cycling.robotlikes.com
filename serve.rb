@@ -13,19 +13,18 @@ s = WEBrick::HTTPServer.new(:Port => 9090, :DocumentRoot => Dir.pwd)
 trap(%q[INT]) { s.shutdown }
 
 s.mount_proc '/auth' do |req, res|
-  begin
-    code = req.query['code']
-    response = strava_client.oauth_token(code: code)
+  code = req.query['code']
+  response = strava_client.oauth_token(code: code)
 
-    output = ""
-    output += `bundle exec ./latest #{response.access_token}`
-    output += `git diff rides.json`
-    output += `git add rides.json && git commit -m "Rides update" && git push origin main`
+  output = "Output:\n"
+  output += `bundle exec ./latest #{response.access_token}`
+  output += `git diff rides.json`
+  output += `git add rides.json && git commit -m "Rides update" && git push origin main`
 
-    res.body = output
-  rescue => ex
-    puts ex
-  end
+  res.body = output
+rescue => ex
+  puts ex
+  puts output
 end
 
 url = "https://#{ENV["CODESPACE_NAME"]}-9090.preview.app.github.dev/auth"
