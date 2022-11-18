@@ -5,8 +5,6 @@ client_id = ENV["STRAVA_CLIENT_ID"]
 client_secret = ENV["STRAVA_CLIENT_SECRET"]
 scope = "activity:read"
 
-access_token = nil
-
 strava_client ||= Strava::OAuth::Client.new(
     client_id: client_id,
     client_secret: client_secret)
@@ -15,24 +13,28 @@ s = WEBrick::HTTPServer.new(:Port => 9090, :DocumentRoot => Dir.pwd)
 trap(%q[INT]) { s.shutdown }
 
 s.mount_proc '/auth' do |req, res|
+  begin
     code = req.query['code']
     response = strava_client.oauth_token(code: code)
+
+    output = ""
+    output += `bundle exec ./latest #{response.access_token}`
+    output += `git diff rides.json`
+    output += `git add rides.json && git commit -m "Rides update" && git push origin main`
 
     res.body = %(
   <html>
     <body>
       <h3>You may close this window and return to your shell.</h3>
-      <ul>
-        <li>token_type: #{response.token_type}</li>
-        <li>refresh_token: #{response.refresh_token}</li>
-        <li>access_token: #{response.access_token}</li>
-        <li>expires_at: #{response.expires_at}</li>
-      </ul>
+      <pre>
+      #{output}
+      </pre>
     <body>
   </html>
     )
-
-    access_token = response.access_token
+  rescue => ex
+    puts ex
+  end
 end
 
 url = "https://#{ENV["CODESPACE_NAME"]}-9090.preview.app.github.dev/auth"
