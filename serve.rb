@@ -27,7 +27,9 @@ rescue => ex
   puts output
 end
 
-url = "https://#{ENV["CODESPACE_NAME"]}-9090.preview.app.github.dev/auth"
+url = "http://localhost:9090/auth"
+url = "https://#{ENV["CODESPACE_NAME"]}-9090.preview.app.github.dev/auth" if ENV["CODESPACE_NAME"]
+
 puts url
 redirect_url = strava_client.authorize_url(
     redirect_uri: url,
