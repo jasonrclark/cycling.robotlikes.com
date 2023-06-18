@@ -15,8 +15,9 @@ cmd = "bundle exec strava \
   -i #{ENV["STRAVA_CLIENT_ID"]} \
   -t #{ARGV[0]} \
   -p activity:read \
-  run 'client.athlete_activities(after: #{after}).to_json'"
+  run 'client.athlete_activities(after: #{after}).to_a.to_json'"
 
+puts cmd
 outs = `#{cmd}`
 
 new_rides = JSON.parse(outs)
