@@ -22187,5 +22187,14 @@
     "created_at": "2023-06-17 17:03:43 UTC",
     "where_to": "Afternoon Ride",
     "distance": 4.61
+  },
+  {
+    "ride_date": "2023-06-19",
+    "duration": 1490,
+    "average_speed": 8.47,
+    "max_speed": 18.18,
+    "created_at": "2023-06-19 18:58:19 UTC",
+    "where_to": "Family ride",
+    "distance": 3.02
   }
 ]
