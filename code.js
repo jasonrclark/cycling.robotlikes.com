@@ -38,10 +38,20 @@ function chart({elementName, title, type, yAxisKey, data}) {
             },
             mode: 'x'
           }
+        },
+        tooltip: {
+          callbacks: {
+            label: tooltipLabel,
+            title: () => undefined
+          }
         }
       },
     }
   });
+}
+
+function tooltipLabel(item) {
+  return `${item.raw.ride_date}, ${item.formattedValue}`;
 }
 
 function vanity({elementName, value, unit, fixed}) {
