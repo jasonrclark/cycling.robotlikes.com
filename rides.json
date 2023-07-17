@@ -22214,5 +22214,41 @@
     "created_at": "2023-07-13 18:52:24 UTC",
     "where_to": "Family ride to froyo",
     "distance": 4.68
+  },
+  {
+    "ride_date": "2023-07-14",
+    "duration": 2812,
+    "average_speed": 11.47,
+    "max_speed": 35.51,
+    "created_at": "2023-07-14 12:28:29 UTC",
+    "where_to": "Afternoon Ride",
+    "distance": 7.91
+  },
+  {
+    "ride_date": "2023-07-14",
+    "duration": 2844,
+    "average_speed": 8.95,
+    "max_speed": 24.22,
+    "created_at": "2023-07-14 16:45:59 UTC",
+    "where_to": "Zip to target",
+    "distance": 5.72
+  },
+  {
+    "ride_date": "2023-07-15",
+    "duration": 1429,
+    "average_speed": 9.24,
+    "max_speed": 19.49,
+    "created_at": "2023-07-15 16:48:48 UTC",
+    "where_to": "Hot ride with Asher",
+    "distance": 3.39
+  },
+  {
+    "ride_date": "2023-07-16",
+    "duration": 2101,
+    "average_speed": 11.43,
+    "max_speed": 29.65,
+    "created_at": "2023-07-16 19:05:13 UTC",
+    "where_to": "Evening Ride",
+    "distance": 6.04
   }
 ]
