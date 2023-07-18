@@ -22250,5 +22250,14 @@
     "created_at": "2023-07-16 19:05:13 UTC",
     "where_to": "Evening Ride",
     "distance": 6.04
+  },
+  {
+    "ride_date": "2023-07-17",
+    "duration": 1704,
+    "average_speed": 9.91,
+    "max_speed": 21.23,
+    "created_at": "2023-07-17 19:08:17 UTC",
+    "where_to": "Loop with Asher and ducks 🦆",
+    "distance": 3.07
   }
 ]
