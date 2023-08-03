@@ -22259,5 +22259,122 @@
     "created_at": "2023-07-17 19:08:17 UTC",
     "where_to": "Loop with Asher and ducks 🦆",
     "distance": 3.07
+  },
+  {
+    "ride_date": "2023-07-19",
+    "duration": 1675,
+    "average_speed": 11.92,
+    "max_speed": 26.88,
+    "created_at": "2023-07-19 18:57:52 UTC",
+    "where_to": "Evening Ride",
+    "distance": 5.22
+  },
+  {
+    "ride_date": "2023-07-20",
+    "duration": 1946,
+    "average_speed": 8.24,
+    "max_speed": 19.24,
+    "created_at": "2023-07-20 20:41:53 UTC",
+    "where_to": "Da Loop with Asher",
+    "distance": 3.25
+  },
+  {
+    "ride_date": "2023-07-21",
+    "duration": 3534,
+    "average_speed": 12.43,
+    "max_speed": 33.3,
+    "created_at": "2023-07-21 10:10:20 UTC",
+    "where_to": "Find the Bikepaths in Sherwood",
+    "distance": 11.04
+  },
+  {
+    "ride_date": "2023-07-24",
+    "duration": 1451,
+    "average_speed": 12.6,
+    "max_speed": 29.46,
+    "created_at": "2023-07-24 18:31:44 UTC",
+    "where_to": "Short evening loop",
+    "distance": 5.03
+  },
+  {
+    "ride_date": "2023-07-24",
+    "duration": 1097,
+    "average_speed": 10.51,
+    "max_speed": 24.2,
+    "created_at": "2023-07-24 19:27:19 UTC",
+    "where_to": "Asher actually did want a ride",
+    "distance": 3.0
+  },
+  {
+    "ride_date": "2023-07-25",
+    "duration": 1634,
+    "average_speed": 12.39,
+    "max_speed": 29.02,
+    "created_at": "2023-07-25 19:06:32 UTC",
+    "where_to": "Evening Ride",
+    "distance": 5.06
+  },
+  {
+    "ride_date": "2023-07-26",
+    "duration": 1150,
+    "average_speed": 9.45,
+    "max_speed": 19.63,
+    "created_at": "2023-07-26 12:36:13 UTC",
+    "where_to": "Lunch Loop with Asher",
+    "distance": 2.95
+  },
+  {
+    "ride_date": "2023-07-28",
+    "duration": 4164,
+    "average_speed": 12.48,
+    "max_speed": 30.08,
+    "created_at": "2023-07-28 16:07:02 UTC",
+    "where_to": "Finally some Distance",
+    "distance": 13.36
+  },
+  {
+    "ride_date": "2023-07-28",
+    "duration": 3378,
+    "average_speed": 7.67,
+    "max_speed": 17.27,
+    "created_at": "2023-07-28 18:41:20 UTC",
+    "where_to": "Froyo with Asher",
+    "distance": 4.06
+  },
+  {
+    "ride_date": "2023-07-31",
+    "duration": 4947,
+    "average_speed": 13.61,
+    "max_speed": 37.61,
+    "created_at": "2023-07-31 16:55:56 UTC",
+    "where_to": "Loop de Día",
+    "distance": 15.88
+  },
+  {
+    "ride_date": "2023-07-31",
+    "duration": 3331,
+    "average_speed": 8.31,
+    "max_speed": 21.0,
+    "created_at": "2023-07-31 18:22:47 UTC",
+    "where_to": "And Froyo with Co",
+    "distance": 4.62
+  },
+  {
+    "ride_date": "2023-08-02",
+    "duration": 3501,
+    "average_speed": 9.83,
+    "max_speed": 32.33,
+    "created_at": "2023-08-02 15:36:58 UTC",
+    "where_to": "Kruger-Chapman Loop",
+    "distance": 8.48
+  },
+  {
+    "ride_date": "2023-08-03",
+    "duration": 1551,
+    "average_speed": 12.8,
+    "max_speed": 27.42,
+    "created_at": "2023-08-03 11:04:52 UTC",
+    "where_to": "Edy Loop",
+    "distance": 5.09
   }
 ]
