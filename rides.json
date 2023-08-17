@@ -22376,5 +22376,68 @@
     "created_at": "2023-08-03 11:04:52 UTC",
     "where_to": "Edy Loop",
     "distance": 5.09
+  },
+  {
+    "ride_date": "2023-08-04",
+    "duration": 1348,
+    "average_speed": 9.34,
+    "max_speed": 18.26,
+    "created_at": "2023-08-04 16:58:09 UTC",
+    "where_to": "Testing the Repairs with Ash",
+    "distance": 2.96
+  },
+  {
+    "ride_date": "2023-08-07",
+    "duration": 1485,
+    "average_speed": 13.69,
+    "max_speed": 31.88,
+    "created_at": "2023-08-07 19:10:47 UTC",
+    "where_to": "On-Call Loop",
+    "distance": 5.61
+  },
+  {
+    "ride_date": "2023-08-08",
+    "duration": 2281,
+    "average_speed": 13.39,
+    "max_speed": 41.65,
+    "created_at": "2023-08-08 18:26:12 UTC",
+    "where_to": "On-Call Loop: II",
+    "distance": 8.38
+  },
+  {
+    "ride_date": "2023-08-09",
+    "duration": 1842,
+    "average_speed": 12.23,
+    "max_speed": 43.01,
+    "created_at": "2023-08-09 18:57:04 UTC",
+    "where_to": "On-Call Loop with Bonus Hill",
+    "distance": 6.08
+  },
+  {
+    "ride_date": "2023-08-11",
+    "duration": 1826,
+    "average_speed": 12.68,
+    "max_speed": 29.69,
+    "created_at": "2023-08-11 19:20:14 UTC",
+    "where_to": "On-Call Loop 4: Variety",
+    "distance": 6.21
+  },
+  {
+    "ride_date": "2023-08-14",
+    "duration": 5747,
+    "average_speed": 13.75,
+    "max_speed": 36.44,
+    "created_at": "2023-08-14 08:13:00 UTC",
+    "where_to": "In Before the Heat",
+    "distance": 20.34
+  },
+  {
+    "ride_date": "2023-08-15",
+    "duration": 1333,
+    "average_speed": 9.39,
+    "max_speed": 18.81,
+    "created_at": "2023-08-15 20:11:20 UTC",
+    "where_to": "Testing Asher’s New Ride",
+    "distance": 3.22
   }
 ]
