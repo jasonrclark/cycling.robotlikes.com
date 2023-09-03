@@ -56,6 +56,7 @@
       </div>
       <div class="vanity">
         <h3>Total: <span id="totalDistance"></span></h3>
+        <h3>Total Time: <span id="totalTime"></span></h3>
       </div>
     </div>
 
@@ -78,11 +79,14 @@
           rides.sort(rideDateComparer);
 
           var totalDistance = 0;
+          var totalTime = 0;
           const totals = rides.map(ride => {
             totalDistance += ride.distance;
+            totalTime += ride.duration
             return {
               ...ride,
-              total: totalDistance,
+              totalDistance,
+              totalTime,
             };
           });
 
@@ -99,7 +103,7 @@
             elementName: 'totalDistanceChart',
             title: 'Total Distance (miles)',
             type: 'scatter',
-            yAxisKey: 'total',
+            yAxisKey: 'totalDistance',
           });
 
           chart({
@@ -119,6 +123,13 @@
             elementName: 'countDistance',
             value: rides.length,
             fixed: 0,
+          });
+
+          vanity({
+            elementName: 'totalTime',
+            value: totalTime / 60 / 60,
+            fixed: 0,
+            unit: 'hours',
           });
 
           vanityDistance({
