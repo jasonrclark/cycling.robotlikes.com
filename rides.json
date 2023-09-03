@@ -22439,5 +22439,104 @@
     "created_at": "2023-08-15 20:11:20 UTC",
     "where_to": "Testing Asher’s New Ride",
     "distance": 3.22
+  },
+  {
+    "ride_date": "2023-08-17",
+    "duration": 2357,
+    "average_speed": 13.44,
+    "max_speed": 37.22,
+    "created_at": "2023-08-17 16:54:07 UTC",
+    "where_to": "Secondary Loopdeloop",
+    "distance": 8.31
+  },
+  {
+    "ride_date": "2023-08-18",
+    "duration": 2539,
+    "average_speed": 12.61,
+    "max_speed": 46.55,
+    "created_at": "2023-08-18 17:41:01 UTC",
+    "where_to": "Hill, Loop, Flip",
+    "distance": 8.72
+  },
+  {
+    "ride_date": "2023-08-19",
+    "duration": 2439,
+    "average_speed": 13.19,
+    "max_speed": 33.99,
+    "created_at": "2023-08-19 18:52:32 UTC",
+    "where_to": "Sunset (Drive) near Sunset (time)",
+    "distance": 8.65
+  },
+  {
+    "ride_date": "2023-08-20",
+    "duration": 3655,
+    "average_speed": 13.46,
+    "max_speed": 29.84,
+    "created_at": "2023-08-20 18:39:32 UTC",
+    "where_to": "Smoky Sunday Circuit",
+    "distance": 13.1
+  },
+  {
+    "ride_date": "2023-08-22",
+    "duration": 1652,
+    "average_speed": 12.52,
+    "max_speed": 33.64,
+    "created_at": "2023-08-22 18:38:21 UTC",
+    "where_to": "Finally a Bigger Loop Again",
+    "distance": 5.19
+  },
+  {
+    "ride_date": "2023-08-23",
+    "duration": 3137,
+    "average_speed": 11.16,
+    "max_speed": 25.62,
+    "created_at": "2023-08-23 17:29:41 UTC",
+    "where_to": "Wander with the Boy; Loop by Myself",
+    "distance": 8.67
+  },
+  {
+    "ride_date": "2023-08-27",
+    "duration": 4127,
+    "average_speed": 13.94,
+    "max_speed": 40.39,
+    "created_at": "2023-08-27 18:06:15 UTC",
+    "where_to": "Tualatin Loop",
+    "distance": 14.9
+  },
+  {
+    "ride_date": "2023-08-28",
+    "duration": 3204,
+    "average_speed": 10.33,
+    "max_speed": 35.07,
+    "created_at": "2023-08-28 07:00:24 UTC",
+    "where_to": "Climbing Kruger, Cruising Chapman",
+    "distance": 8.46
+  },
+  {
+    "ride_date": "2023-09-01",
+    "duration": 2039,
+    "average_speed": 12.64,
+    "max_speed": 26.36,
+    "created_at": "2023-09-01 17:55:05 UTC",
+    "where_to": "Birthday Circuit",
+    "distance": 6.19
+  },
+  {
+    "ride_date": "2023-09-02",
+    "duration": 4693,
+    "average_speed": 10.53,
+    "max_speed": 43.73,
+    "created_at": "2023-09-02 12:09:09 UTC",
+    "where_to": "Kruger-Bell",
+    "distance": 11.29
+  },
+  {
+    "ride_date": "2023-09-03",
+    "duration": 1351,
+    "average_speed": 9.35,
+    "max_speed": 20.21,
+    "created_at": "2023-09-03 14:36:52 UTC",
+    "where_to": "Rolling with Asher",
+    "distance": 3.32
   }
 ]
