@@ -22538,5 +22538,167 @@
     "created_at": "2023-09-03 14:36:52 UTC",
     "where_to": "Rolling with Asher",
     "distance": 3.32
+  },
+  {
+    "ride_date": "2023-09-04",
+    "duration": 4935,
+    "average_speed": 14.31,
+    "max_speed": 30.18,
+    "created_at": "2023-09-04 09:21:36 UTC",
+    "where_to": "Tualatin Loop",
+    "distance": 18.22
+  },
+  {
+    "ride_date": "2023-09-05",
+    "duration": 1073,
+    "average_speed": 10.8,
+    "max_speed": 30.18,
+    "created_at": "2023-09-05 17:36:19 UTC",
+    "where_to": "Asher Circuit",
+    "distance": 3.13
+  },
+  {
+    "ride_date": "2023-09-06",
+    "duration": 1092,
+    "average_speed": 10.33,
+    "max_speed": 22.12,
+    "created_at": "2023-09-06 17:32:00 UTC",
+    "where_to": "Asher Loop",
+    "distance": 2.89
+  },
+  {
+    "ride_date": "2023-09-06",
+    "duration": 1697,
+    "average_speed": 12.63,
+    "max_speed": 37.08,
+    "created_at": "2023-09-06 18:24:26 UTC",
+    "where_to": "Ridges Ride",
+    "distance": 5.07
+  },
+  {
+    "ride_date": "2023-09-08",
+    "duration": 401,
+    "average_speed": 11.41,
+    "max_speed": 22.37,
+    "created_at": "2023-09-08 08:12:47 UTC",
+    "where_to": "Asher to School",
+    "distance": 1.22
+  },
+  {
+    "ride_date": "2023-09-11",
+    "duration": 923,
+    "average_speed": 11.69,
+    "max_speed": 23.93,
+    "created_at": "2023-09-11 19:33:51 UTC",
+    "where_to": "Asher Loop",
+    "distance": 2.95
+  },
+  {
+    "ride_date": "2023-09-15",
+    "duration": 1519,
+    "average_speed": 12.98,
+    "max_speed": 30.89,
+    "created_at": "2023-09-15 18:27:10 UTC",
+    "where_to": "Quick Evening Loop",
+    "distance": 5.06
+  },
+  {
+    "ride_date": "2023-09-16",
+    "duration": 6358,
+    "average_speed": 14.55,
+    "max_speed": 29.72,
+    "created_at": "2023-09-16 16:48:46 UTC",
+    "where_to": "Howdy Wilsonville",
+    "distance": 23.31
+  },
+  {
+    "ride_date": "2023-09-17",
+    "duration": 5335,
+    "average_speed": 8.7,
+    "max_speed": 23.96,
+    "created_at": "2023-09-17 12:44:52 UTC",
+    "where_to": "Lunch with Asher",
+    "distance": 2.85
+  },
+  {
+    "ride_date": "2023-09-19",
+    "duration": 2617,
+    "average_speed": 11.98,
+    "max_speed": 30.74,
+    "created_at": "2023-09-19 17:03:11 UTC",
+    "where_to": "Loop of loops",
+    "distance": 7.61
+  },
+  {
+    "ride_date": "2023-09-27",
+    "duration": 870,
+    "average_speed": 12.71,
+    "max_speed": 26.22,
+    "created_at": "2023-09-27 17:44:46 UTC",
+    "where_to": "Briefly Dodging the Drizzle",
+    "distance": 3.04
+  },
+  {
+    "ride_date": "2023-09-30",
+    "duration": 1038,
+    "average_speed": 10.73,
+    "max_speed": 23.12,
+    "created_at": "2023-09-30 19:05:04 UTC",
+    "where_to": "Asher Loop",
+    "distance": 2.95
+  },
+  {
+    "ride_date": "2023-10-01",
+    "duration": 1890,
+    "average_speed": 11.09,
+    "max_speed": 28.39,
+    "created_at": "2023-10-01 12:10:03 UTC",
+    "where_to": "Warmup with Asher",
+    "distance": 5.12
+  },
+  {
+    "ride_date": "2023-10-01",
+    "duration": 4954,
+    "average_speed": 14.17,
+    "max_speed": 34.52,
+    "created_at": "2023-10-01 12:41:58 UTC",
+    "where_to": "Big Loop",
+    "distance": 18.44
+  },
+  {
+    "ride_date": "2023-10-04",
+    "duration": 174247,
+    "average_speed": 7.31,
+    "max_speed": 32.22,
+    "created_at": "2023-10-04 17:18:42 UTC",
+    "where_to": "Asher Fiver",
+    "distance": 4.95
+  },
+  {
+    "ride_date": "2023-10-06",
+    "duration": 2233,
+    "average_speed": 12.2,
+    "max_speed": 36.79,
+    "created_at": "2023-10-06 17:44:54 UTC",
+    "where_to": "Evening Spin",
+    "distance": 7.31
+  },
+  {
+    "ride_date": "2023-10-07",
+    "duration": 3464,
+    "average_speed": 9.25,
+    "max_speed": 25.29,
+    "created_at": "2023-10-07 16:54:50 UTC",
+    "where_to": "Forttown Afternoon",
+    "distance": 4.03
+  },
+  {
+    "ride_date": "2023-10-13",
+    "duration": 7769,
+    "average_speed": 13.39,
+    "max_speed": 32.45,
+    "created_at": "2023-10-13 15:14:56 UTC",
+    "where_to": "Soggy Circuit",
+    "distance": 24.09
   }
 ]
