@@ -22700,5 +22700,14 @@
     "created_at": "2023-10-13 15:14:56 UTC",
     "where_to": "Soggy Circuit",
     "distance": 24.09
+  },
+  {
+    "ride_date": "2023-10-19",
+    "duration": 2208,
+    "average_speed": 12.04,
+    "max_speed": 30.75,
+    "created_at": "2023-10-19 17:02:44 UTC",
+    "where_to": "Autumnal Awesomeness",
+    "distance": 7.16
   }
 ]
