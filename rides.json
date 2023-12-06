@@ -22709,5 +22709,41 @@
     "created_at": "2023-10-19 17:02:44 UTC",
     "where_to": "Autumnal Awesomeness",
     "distance": 7.16
+  },
+  {
+    "ride_date": "2023-10-29",
+    "duration": 4437,
+    "average_speed": 9.43,
+    "max_speed": 23.25,
+    "created_at": "2023-10-29 14:28:48 UTC",
+    "where_to": "Riding with Asher",
+    "distance": 5.83
+  },
+  {
+    "ride_date": "2023-11-17",
+    "duration": 2329,
+    "average_speed": 11.87,
+    "max_speed": 27.58,
+    "created_at": "2023-11-17 13:25:40 UTC",
+    "where_to": "Glorious Autumn Sunshine",
+    "distance": 7.47
+  },
+  {
+    "ride_date": "2023-11-21",
+    "duration": 1680,
+    "average_speed": 12.27,
+    "max_speed": 30.67,
+    "created_at": "2023-11-21 15:06:30 UTC",
+    "where_to": "Chill Loop",
+    "distance": 5.11
+  },
+  {
+    "ride_date": "2023-11-22",
+    "duration": 2179,
+    "average_speed": 12.58,
+    "max_speed": 31.48,
+    "created_at": "2023-11-22 15:16:25 UTC",
+    "where_to": "Sneak Between the Downpours",
+    "distance": 5.16
   }
 ]
