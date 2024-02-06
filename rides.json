@@ -22745,5 +22745,23 @@
     "created_at": "2023-11-22 15:16:25 UTC",
     "where_to": "Sneak Between the Downpours",
     "distance": 5.16
+  },
+  {
+    "ride_date": "2024-02-04",
+    "duration": 4639,
+    "average_speed": 12.5,
+    "max_speed": 30.78,
+    "created_at": "2024-02-04 12:48:45 UTC",
+    "where_to": "Winter Sunshine",
+    "distance": 15.3
+  },
+  {
+    "ride_date": "2024-02-04",
+    "duration": 1183,
+    "average_speed": 9.72,
+    "max_speed": 21.86,
+    "created_at": "2024-02-04 16:25:43 UTC",
+    "where_to": "Winter Loop with the Boy",
+    "distance": 2.86
   }
 ]
