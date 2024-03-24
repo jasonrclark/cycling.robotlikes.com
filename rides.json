@@ -22763,5 +22763,68 @@
     "created_at": "2024-02-04 16:25:43 UTC",
     "where_to": "Winter Loop with the Boy",
     "distance": 2.86
+  },
+  {
+    "ride_date": "2024-02-19",
+    "duration": 1956,
+    "average_speed": 12.63,
+    "max_speed": 27.16,
+    "created_at": "2024-02-19 15:07:55 UTC",
+    "where_to": "Breaking in the New Shoes 👟",
+    "distance": 5.75
+  },
+  {
+    "ride_date": "2024-02-24",
+    "duration": 2153,
+    "average_speed": 10.27,
+    "max_speed": 26.4,
+    "created_at": "2024-02-24 16:53:43 UTC",
+    "where_to": "Fiver",
+    "distance": 5.27
+  },
+  {
+    "ride_date": "2024-03-15",
+    "duration": 1431,
+    "average_speed": 13.1,
+    "max_speed": 35.26,
+    "created_at": "2024-03-15 18:37:19 UTC",
+    "where_to": "Spring??!?",
+    "distance": 5.04
+  },
+  {
+    "ride_date": "2024-03-16",
+    "duration": 1689,
+    "average_speed": 12.63,
+    "max_speed": 29.74,
+    "created_at": "2024-03-16 17:48:45 UTC",
+    "where_to": "Quick five 5️⃣",
+    "distance": 5.08
+  },
+  {
+    "ride_date": "2024-03-17",
+    "duration": 5391,
+    "average_speed": 11.7,
+    "max_speed": 31.56,
+    "created_at": "2024-03-17 13:58:23 UTC",
+    "where_to": "☀️🌞🕶️🚴🏻",
+    "distance": 11.33
+  },
+  {
+    "ride_date": "2024-03-18",
+    "duration": 5654,
+    "average_speed": 13.57,
+    "max_speed": 68.35,
+    "created_at": "2024-03-18 13:57:37 UTC",
+    "where_to": "Last Day of Freedom 🌸",
+    "distance": 19.45
+  },
+  {
+    "ride_date": "2024-03-24",
+    "duration": 16036,
+    "average_speed": 10.62,
+    "max_speed": 50.43,
+    "created_at": "2024-03-24 09:55:48 UTC",
+    "where_to": "Worst Day of the Year Ride",
+    "distance": 37.98
   }
 ]
