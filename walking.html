@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>Robot Likes Cycling</title>
+    <title>Robot Likes Walking</title>
     <link rel="stylesheet" href="https://jasonrclark.com/css/pixyll.css" type="text/css">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.js"></script>
@@ -37,8 +37,8 @@
     </style>
   </head>
   <body style="padding:20px;width:1100px;">
-    <h1 class="post-title">Robot Likes Cycling <a href="/walking.html">&#128694;</a></h1>
- 
+    <h1 class="post-title">Robot Likes Walking <a href="/index.html">&#128690;</a></h1>
+
     <div>
       <div class="chart">
         <canvas id="perDistanceChart"></canvas>
@@ -56,50 +56,35 @@
       </div>
       <div class="vanity">
         <h3>Total: <span id="totalDistance"></span></h3>
-        <h3>Total Hours: <span id="totalHours"></span></h3>
-        <h3>Total Days: <span id="totalDays"></span></h3>
-      </div>
-    </div>
-
-    <div>
-      <div class="chart">
-        <canvas id="averageSpeedChart"></canvas>
-      </div>
-      <div class="vanity">
-        <h3>Average: <span id="averageSpeed"></span></span></h3>
-        <h3>Max: <span id="maxSpeed"></span></h3>
       </div>
     </div>
 
     <script>
-      var rides = [];
-      fetch('/rides.json')
+      var walks = [];
+      fetch('/walks.json')
         .then((response) => response.json())
         .then((data) => {
-          rides = data;
-          rides.sort(rideDateComparer);
+          walks = data;
+          walks.sort(walkDateComparer);
 
           var totalDistance = 0;
-          var totalTime = 0;
-          const totals = rides.map(ride => {
-            totalDistance += ride.distance;
-            totalTime += ride.duration
+          const totals = walks.map(walk => {
+            totalDistance += walk.distance;
             return {
-              ...ride,
+              ...walk,
               totalDistance,
-              totalTime,
             };
           });
 
-          chart({
-            data: rides,
+          chartWalk({
+            data: walks,
             elementName: 'perDistanceChart',
-            title: 'Ride Distance (miles)',
+            title: 'Walk Distance (miles)',
             type: 'bar',
             yAxisKey: 'distance',
           });
 
-          chart({
+          chartWalk({
             data: totals,
             elementName: 'totalDistanceChart',
             title: 'Total Distance (miles)',
@@ -107,57 +92,25 @@
             yAxisKey: 'totalDistance',
           });
 
-          chart({
-            data: rides,
-            elementName: 'averageSpeedChart',
-            title: 'Average Speed (mph)',
-            type: 'scatter',
-            yAxisKey: 'average_speed',
-          });
-
           vanityDistance({
             elementName: 'maxDistance',
-            value: Math.max(...rides.map(r => r.distance)),
+            value: Math.max(...walks.map(w => w.distance)),
           });
 
           vanity({
             elementName: 'countDistance',
-            value: rides.length,
+            value: walks.length,
             fixed: 0,
-          });
-
-          vanity({
-            elementName: 'totalHours',
-            value: totalTime / 60 / 60,
-            fixed: 0,
-            unit: 'hours',
-          });
-
-          vanity({
-            elementName: 'totalDays',
-            value: totalTime / 60 / 60 / 24,
-            fixed: 0,
-            unit: 'days',
           });
 
           vanityDistance({
             elementName: 'averageDistance',
-            value: (totalDistance / rides.length),
+            value: (totalDistance / walks.length),
           });
 
           vanityDistance({
             elementName: 'totalDistance',
             value: totalDistance,
-          });
-
-          vanitySpeed({
-            elementName: 'averageSpeed',
-            value: (rides.reduce((prior, ride) => prior + ride.average_speed, 0) / rides.length),
-          });
-
-          vanitySpeed({
-            elementName: 'maxSpeed',
-            value: Math.max(...rides.map(r => r.max_speed)),
           });
         });
 
