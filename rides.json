@@ -22826,5 +22826,50 @@
     "created_at": "2024-03-24 09:55:48 UTC",
     "where_to": "Worst Day of the Year Ride",
     "distance": 37.98
+  },
+  {
+    "ride_date": "2024-03-31",
+    "duration": 5014,
+    "average_speed": 13.78,
+    "max_speed": 36.18,
+    "created_at": "2024-03-31 17:27:57 UTC",
+    "where_to": "Last of March",
+    "distance": 17.95
+  },
+  {
+    "ride_date": "2024-05-08",
+    "duration": 1346,
+    "average_speed": 13.9,
+    "max_speed": 28.81,
+    "created_at": "2024-05-08 18:14:03 UTC",
+    "where_to": "Evening Ride",
+    "distance": 4.99
+  },
+  {
+    "ride_date": "2024-05-15",
+    "duration": 1427,
+    "average_speed": 13.92,
+    "max_speed": 27.99,
+    "created_at": "2024-05-15 06:46:41 UTC",
+    "where_to": "Post Airport Circuit",
+    "distance": 4.96
+  },
+  {
+    "ride_date": "2024-05-23",
+    "duration": 1361,
+    "average_speed": 14.26,
+    "max_speed": 31.74,
+    "created_at": "2024-05-23 18:15:50 UTC",
+    "where_to": "Fast Five 💨",
+    "distance": 5.07
+  },
+  {
+    "ride_date": "2024-05-25",
+    "duration": 4798,
+    "average_speed": 11.32,
+    "max_speed": 48.04,
+    "created_at": "2024-05-25 17:28:05 UTC",
+    "where_to": "Krueger on New Cleats",
+    "distance": 14.51
   }
 ]
