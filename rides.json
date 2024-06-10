@@ -22871,5 +22871,50 @@
     "created_at": "2024-05-25 17:28:05 UTC",
     "where_to": "Krueger on New Cleats",
     "distance": 14.51
+  },
+  {
+    "ride_date": "2024-05-27",
+    "duration": 7015,
+    "average_speed": 14.05,
+    "max_speed": 44.29,
+    "created_at": "2024-05-27 13:52:19 UTC",
+    "where_to": "Big Burb Loop",
+    "distance": 24.18
+  },
+  {
+    "ride_date": "2024-05-28",
+    "duration": 1263,
+    "average_speed": 14.75,
+    "max_speed": 30.27,
+    "created_at": "2024-05-28 18:16:44 UTC",
+    "where_to": "Finish with Five 5️⃣",
+    "distance": 5.11
+  },
+  {
+    "ride_date": "2024-06-01",
+    "duration": 3075,
+    "average_speed": 10.64,
+    "max_speed": 34.78,
+    "created_at": "2024-06-01 13:42:11 UTC",
+    "where_to": "Kruger",
+    "distance": 8.46
+  },
+  {
+    "ride_date": "2024-06-06",
+    "duration": 1325,
+    "average_speed": 13.71,
+    "max_speed": 29.13,
+    "created_at": "2024-06-06 18:14:34 UTC",
+    "where_to": "Fiver",
+    "distance": 4.96
+  },
+  {
+    "ride_date": "2024-06-08",
+    "duration": 35212,
+    "average_speed": 12.83,
+    "max_speed": 41.16,
+    "created_at": "2024-06-08 07:24:10 UTC",
+    "where_to": "Pioneer Century 2024",
+    "distance": 104.12
   }
 ]
