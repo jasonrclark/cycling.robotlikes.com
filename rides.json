@@ -22916,5 +22916,14 @@
     "created_at": "2024-06-08 07:24:10 UTC",
     "where_to": "Pioneer Century 2024",
     "distance": 104.12
+  },
+  {
+    "ride_date": "2024-07-08",
+    "duration": 3247,
+    "average_speed": 9.98,
+    "max_speed": 37.55,
+    "created_at": "2024-07-08 06:12:19 UTC",
+    "where_to": "Good Morning Kruger",
+    "distance": 8.42
   }
 ]
