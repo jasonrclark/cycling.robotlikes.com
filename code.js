@@ -60,8 +60,8 @@ function vanity({elementName, value, unit, fixed}) {
   element.innerHTML = value.toFixed(fixed) + " " + (unit || "");
 }
 
-function vanityDistance({elementName, value}) {
-  vanity({elementName, value, unit: 'miles'});
+function vanityDistance({elementName, value, unit}) {
+  vanity({elementName, value, unit: unit || 'miles'});
 }
 
 function vanitySpeed({elementName, value}) {

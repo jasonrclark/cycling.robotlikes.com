@@ -79,7 +79,7 @@
           chartWalk({
             data: walks,
             elementName: 'perDistanceChart',
-            title: 'Walk Distance (miles)',
+            title: 'Walk Distance (km)',
             type: 'bar',
             yAxisKey: 'distance',
           });
@@ -87,7 +87,7 @@
           chartWalk({
             data: totals,
             elementName: 'totalDistanceChart',
-            title: 'Total Distance (miles)',
+            title: 'Total Distance (km)',
             type: 'scatter',
             yAxisKey: 'totalDistance',
           });
@@ -95,6 +95,7 @@
           vanityDistance({
             elementName: 'maxDistance',
             value: Math.max(...walks.map(w => w.distance)),
+            unit: 'km',
           });
 
           vanity({
@@ -106,11 +107,13 @@
           vanityDistance({
             elementName: 'averageDistance',
             value: (totalDistance / walks.length),
+            unit: 'km',
           });
 
           vanityDistance({
             elementName: 'totalDistance',
             value: totalDistance,
+            unit: 'km',
           });
         });
 
