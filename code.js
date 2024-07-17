@@ -51,7 +51,11 @@ function chart({elementName, title, type, yAxisKey, data}) {
 }
 
 function tooltipLabel(item) {
-  return `${item.raw.ride_date}, ${item.formattedValue}`;
+  return [
+    item.raw.ride_date,
+    item.raw.where_to,
+    item.formattedValue,
+  ];
 }
 
 function vanity({elementName, value, unit, fixed}) {
