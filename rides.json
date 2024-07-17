@@ -22961,5 +22961,14 @@
     "created_at": "2024-07-15 07:17:21 UTC",
     "where_to": "Monday Hills",
     "distance": 8.46
+  },
+  {
+    "ride_date": "2024-07-17",
+    "duration": 3149,
+    "average_speed": 10.41,
+    "max_speed": 38.68,
+    "created_at": "2024-07-17 07:44:30 UTC",
+    "where_to": "Hump Day Hills",
+    "distance": 8.47
   }
 ]
