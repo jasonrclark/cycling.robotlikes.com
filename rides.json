@@ -22970,5 +22970,32 @@
     "created_at": "2024-07-17 07:44:30 UTC",
     "where_to": "Hump Day Hills",
     "distance": 8.47
+  },
+  {
+    "ride_date": "2024-07-19",
+    "duration": 3074,
+    "average_speed": 10.58,
+    "max_speed": 37.62,
+    "created_at": "2024-07-19 07:00:44 UTC",
+    "where_to": "TGIH (Thank God It’s Hilly)",
+    "distance": 8.42
+  },
+  {
+    "ride_date": "2024-07-21",
+    "duration": 4154,
+    "average_speed": 10.77,
+    "max_speed": 40.42,
+    "created_at": "2024-07-21 07:10:48 UTC",
+    "where_to": "Kruger with a little Mountain (Home Rd)",
+    "distance": 11.39
+  },
+  {
+    "ride_date": "2024-07-22",
+    "duration": 3000,
+    "average_speed": 10.2,
+    "max_speed": 0.0,
+    "created_at": "2024-07-22 07:25:00 UTC",
+    "where_to": "Morning Kruger",
+    "distance": 8.5
   }
 ]
