@@ -22997,5 +22997,32 @@
     "created_at": "2024-07-22 07:25:00 UTC",
     "where_to": "Morning Kruger",
     "distance": 8.5
+  },
+  {
+    "ride_date": "2024-07-24",
+    "duration": 3049,
+    "average_speed": 10.43,
+    "max_speed": 37.82,
+    "created_at": "2024-07-24 07:21:17 UTC",
+    "where_to": "Kruger",
+    "distance": 8.44
+  },
+  {
+    "ride_date": "2024-07-25",
+    "duration": 1281,
+    "average_speed": 9.87,
+    "max_speed": 23.67,
+    "created_at": "2024-07-25 19:13:27 UTC",
+    "where_to": "Evening with Cora",
+    "distance": 2.86
+  },
+  {
+    "ride_date": "2024-07-27",
+    "duration": 36054,
+    "average_speed": 12.2,
+    "max_speed": 61.03,
+    "created_at": "2024-07-27 06:53:24 UTC",
+    "where_to": "Ride Around Clark County 2024 (Century+)",
+    "distance": 105.57
   }
 ]
