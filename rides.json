@@ -23024,5 +23024,14 @@
     "created_at": "2024-07-27 06:53:24 UTC",
     "where_to": "Ride Around Clark County 2024 (Century+)",
     "distance": 105.57
+  },
+  {
+    "ride_date": "2024-08-06",
+    "duration": 3963,
+    "average_speed": 10.84,
+    "max_speed": 42.96,
+    "created_at": "2024-08-06 07:19:25 UTC",
+    "where_to": "Full Kruger",
+    "distance": 11.29
   }
 ]
