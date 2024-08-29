@@ -23033,5 +23033,68 @@
     "created_at": "2024-08-06 07:19:25 UTC",
     "where_to": "Full Kruger",
     "distance": 11.29
+  },
+  {
+    "ride_date": "2024-08-08",
+    "duration": 4107,
+    "average_speed": 10.68,
+    "max_speed": 42.78,
+    "created_at": "2024-08-08 07:04:52 UTC",
+    "where_to": "Thursday Hills",
+    "distance": 11.24
+  },
+  {
+    "ride_date": "2024-08-10",
+    "duration": 8634,
+    "average_speed": 12.98,
+    "max_speed": 38.76,
+    "created_at": "2024-08-10 08:58:24 UTC",
+    "where_to": "Weekend Loop",
+    "distance": 28.53
+  },
+  {
+    "ride_date": "2024-08-11",
+    "duration": 8843,
+    "average_speed": 7.11,
+    "max_speed": 26.66,
+    "created_at": "2024-08-11 08:42:22 UTC",
+    "where_to": "Family Bridge Pedal",
+    "distance": 11.61
+  },
+  {
+    "ride_date": "2024-08-12",
+    "duration": 2855,
+    "average_speed": 11.14,
+    "max_speed": 38.8,
+    "created_at": "2024-08-12 07:36:58 UTC",
+    "where_to": "Monday Kruger-Chapman",
+    "distance": 8.46
+  },
+  {
+    "ride_date": "2024-08-13",
+    "duration": 2886,
+    "average_speed": 11.03,
+    "max_speed": 38.76,
+    "created_at": "2024-08-13 18:17:47 UTC",
+    "where_to": "Evening Kruger",
+    "distance": 8.44
+  },
+  {
+    "ride_date": "2024-08-24",
+    "duration": 3247,
+    "average_speed": 10.56,
+    "max_speed": 38.62,
+    "created_at": "2024-08-24 11:34:25 UTC",
+    "where_to": "Hills after a week out 😅",
+    "distance": 8.51
+  },
+  {
+    "ride_date": "2024-08-26",
+    "duration": 2941,
+    "average_speed": 10.85,
+    "max_speed": 40.09,
+    "created_at": "2024-08-26 07:21:33 UTC",
+    "where_to": "Monday Morning Climbing",
+    "distance": 8.42
   }
 ]
