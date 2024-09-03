@@ -23096,5 +23096,23 @@
     "created_at": "2024-08-26 07:21:33 UTC",
     "where_to": "Monday Morning Climbing",
     "distance": 8.42
+  },
+  {
+    "ride_date": "2024-08-30",
+    "duration": 3134,
+    "average_speed": 10.79,
+    "max_speed": 39.54,
+    "created_at": "2024-08-30 07:20:49 UTC",
+    "where_to": "TGI Kruger",
+    "distance": 8.62
+  },
+  {
+    "ride_date": "2024-09-01",
+    "duration": 8816,
+    "average_speed": 12.53,
+    "max_speed": 54.33,
+    "created_at": "2024-09-01 09:56:57 UTC",
+    "where_to": "Birthday Ride",
+    "distance": 28.92
   }
 ]
