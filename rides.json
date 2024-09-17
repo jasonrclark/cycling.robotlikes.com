@@ -23114,5 +23114,41 @@
     "created_at": "2024-09-01 09:56:57 UTC",
     "where_to": "Birthday Ride",
     "distance": 28.92
+  },
+  {
+    "ride_date": "2024-09-04",
+    "duration": 2018,
+    "average_speed": 12.91,
+    "max_speed": 36.65,
+    "created_at": "2024-09-04 18:27:21 UTC",
+    "where_to": "Five and Climb",
+    "distance": 6.46
+  },
+  {
+    "ride_date": "2024-09-06",
+    "duration": 3266,
+    "average_speed": 10.4,
+    "max_speed": 43.86,
+    "created_at": "2024-09-06 06:54:07 UTC",
+    "where_to": "Hazy Kruger",
+    "distance": 8.41
+  },
+  {
+    "ride_date": "2024-09-10",
+    "duration": 1837,
+    "average_speed": 13.61,
+    "max_speed": 36.2,
+    "created_at": "2024-09-10 18:16:22 UTC",
+    "where_to": "Evening Loop plus a Hill",
+    "distance": 6.46
+  },
+  {
+    "ride_date": "2024-09-15",
+    "duration": 35371,
+    "average_speed": 12.13,
+    "max_speed": 51.87,
+    "created_at": "2024-09-15 07:26:55 UTC",
+    "where_to": "Harvest Century 2024",
+    "distance": 101.65
   }
 ]
