@@ -23186,5 +23186,32 @@
     "created_at": "2025-02-01 14:56:20 UTC",
     "where_to": "Best YTD",
     "distance": 4.99
+  },
+  {
+    "ride_date": "2025-02-12",
+    "duration": 899,
+    "average_speed": 10.17,
+    "max_speed": 23.04,
+    "created_at": "2025-02-12 12:41:59 UTC",
+    "where_to": "Short and Chilly",
+    "distance": 2.48
+  },
+  {
+    "ride_date": "2025-02-27",
+    "duration": 1407,
+    "average_speed": 13.7,
+    "max_speed": 43.93,
+    "created_at": "2025-02-27 12:18:24 UTC",
+    "where_to": "Lunch Five 5️⃣",
+    "distance": 5.12
+  },
+  {
+    "ride_date": "2025-02-28",
+    "duration": 1383,
+    "average_speed": 13.8,
+    "max_speed": 28.68,
+    "created_at": "2025-02-28 15:39:47 UTC",
+    "where_to": "Sunny 😎",
+    "distance": 5.01
   }
 ]
