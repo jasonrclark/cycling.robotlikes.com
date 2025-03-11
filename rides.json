@@ -23213,5 +23213,14 @@
     "created_at": "2025-02-28 15:39:47 UTC",
     "where_to": "Sunny 😎",
     "distance": 5.01
+  },
+  {
+    "ride_date": "2025-03-10",
+    "duration": 1787,
+    "average_speed": 12.91,
+    "max_speed": 28.45,
+    "created_at": "2025-03-10 17:44:37 UTC",
+    "where_to": "Something Good about DST",
+    "distance": 4.98
   }
 ]
