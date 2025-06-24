@@ -23222,5 +23222,23 @@
     "created_at": "2025-03-10 17:44:37 UTC",
     "where_to": "Something Good about DST",
     "distance": 4.98
+  },
+  {
+    "ride_date": "2025-06-15",
+    "duration": 1897,
+    "average_speed": 12.16,
+    "max_speed": 33.24,
+    "created_at": "2025-06-15 18:03:06 UTC",
+    "where_to": "Father’s Day Ride",
+    "distance": 6.2
+  },
+  {
+    "ride_date": "2025-06-23",
+    "duration": 2083,
+    "average_speed": 12.44,
+    "max_speed": 33.55,
+    "created_at": "2025-06-23 19:01:07 UTC",
+    "where_to": "Five and a Hill",
+    "distance": 6.26
   }
 ]
