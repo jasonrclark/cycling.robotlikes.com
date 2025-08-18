@@ -23294,5 +23294,59 @@
     "created_at": "2025-07-07 06:58:27 UTC",
     "where_to": "Start the Week Right 🚲",
     "distance": 8.47
+  },
+  {
+    "ride_date": "2025-07-10",
+    "duration": 2828,
+    "average_speed": 12.42,
+    "max_speed": 35.25,
+    "created_at": "2025-07-10 18:19:07 UTC",
+    "where_to": "Couple o’ Hills",
+    "distance": 9.32
+  },
+  {
+    "ride_date": "2025-07-11",
+    "duration": 2104,
+    "average_speed": 12.33,
+    "max_speed": 35.08,
+    "created_at": "2025-07-11 19:16:40 UTC",
+    "where_to": "After Dinner Loop",
+    "distance": 6.46
+  },
+  {
+    "ride_date": "2025-07-15",
+    "duration": 2063,
+    "average_speed": 12.18,
+    "max_speed": 36.46,
+    "created_at": "2025-07-15 18:44:51 UTC",
+    "where_to": "Warm Evening Loop",
+    "distance": 6.28
+  },
+  {
+    "ride_date": "2025-07-17",
+    "duration": 2694,
+    "average_speed": 12.83,
+    "max_speed": 36.62,
+    "created_at": "2025-07-17 18:41:36 UTC",
+    "where_to": "Too Hot, Still Two Hills",
+    "distance": 9.31
+  },
+  {
+    "ride_date": "2025-07-22",
+    "duration": 1078,
+    "average_speed": 9.06,
+    "max_speed": 28.72,
+    "created_at": "2025-07-22 20:29:27 UTC",
+    "where_to": "Looping with Asher",
+    "distance": 2.14
+  },
+  {
+    "ride_date": "2025-08-15",
+    "duration": 19173,
+    "average_speed": 10.18,
+    "max_speed": 34.85,
+    "created_at": "2025-08-15 09:02:48 UTC",
+    "where_to": "Cycling in Chianti 🍷",
+    "distance": 33.92
   }
 ]
