@@ -23348,5 +23348,14 @@
     "created_at": "2025-08-15 09:02:48 UTC",
     "where_to": "Cycling in Chianti 🍷",
     "distance": 33.92
+  },
+  {
+    "ride_date": "2025-09-01",
+    "duration": 1536,
+    "average_speed": 13.21,
+    "max_speed": 42.14,
+    "created_at": "2025-09-01 19:12:56 UTC",
+    "where_to": "First Ride of a Prime Year",
+    "distance": 5.04
   }
 ]
