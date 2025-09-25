@@ -518,5 +518,25 @@
   {"walk_date": "2025-07-22", "distance": 10.73},
   {"walk_date": "2025-07-23", "distance": 11.08},
   {"walk_date": "2025-07-28", "distance": 8.71},
-  {"walk_date": "2025-08-18", "distance": 9.25}
+  {"walk_date": "2025-08-18", "distance": 9.25},
+  { "walk_date": "2025-08-19", "distance": 9.52 },
+  { "walk_date": "2025-08-20", "distance": 5.64 },
+  { "walk_date": "2025-08-21", "distance": 9.7 },
+  { "walk_date": "2025-08-25", "distance": 8.99 },
+  { "walk_date": "2025-08-27", "distance": 11.23 },
+  { "walk_date": "2025-08-28", "distance": 9.57 },
+  { "walk_date": "2025-09-02", "distance": 10.12 },
+  { "walk_date": "2025-09-03", "distance": 7.82 },
+  { "walk_date": "2025-09-04", "distance": 9.92 },
+  { "walk_date": "2025-09-08", "distance": 6.29 },
+  { "walk_date": "2025-09-09", "distance": 9.98 },
+  { "walk_date": "2025-09-10", "distance": 5.14 },
+  { "walk_date": "2025-09-15", "distance": 13.15 },
+  { "walk_date": "2025-09-17", "distance": 8 },
+  { "walk_date": "2025-09-18", "distance": 6.85 },
+  { "walk_date": "2025-09-19", "distance": 9.07 },
+  { "walk_date": "2025-09-22", "distance": 8 },
+  { "walk_date": "2025-09-24", "distance": 12.31 },
+  { "walk_date": "2025-09-25", "distance": 10.17 }
+
 ]
