@@ -537,6 +537,105 @@
   { "walk_date": "2025-09-19", "distance": 9.07 },
   { "walk_date": "2025-09-22", "distance": 8 },
   { "walk_date": "2025-09-24", "distance": 12.31 },
-  { "walk_date": "2025-09-25", "distance": 10.17 }
-
+  { "walk_date": "2025-09-25", "distance": 10.17 },
+  {
+    "walk_date": "2025-09-29",
+    "distance": 14.14
+  },
+  {
+    "walk_date": "2025-10-01",
+    "distance": 6.4
+  },
+  {
+    "walk_date": "2025-10-02",
+    "distance": 7.8
+  },
+  {
+    "walk_date": "2025-10-03",
+    "distance": 6.27
+  },
+  {
+    "walk_date": "2025-10-06",
+    "distance": 11.57
+  },
+  {
+    "walk_date": "2025-10-07",
+    "distance": 7.16
+  },
+  {
+    "walk_date": "2025-10-08",
+    "distance": 9.42
+  },
+  {
+    "walk_date": "2025-10-09",
+    "distance": 9.4
+  },
+  {
+    "walk_date": "2025-10-13",
+    "distance": 8.35
+  },
+  {
+    "walk_date": "2025-10-14",
+    "distance": 8.91
+  },
+  {
+    "walk_date": "2025-10-15",
+    "distance": 5.37
+  },
+  {
+    "walk_date": "2025-10-16",
+    "distance": 14.99
+  },
+  {
+    "walk_date": "2025-10-20",
+    "distance": 8.15
+  },
+  {
+    "walk_date": "2025-10-21",
+    "distance": 11.7
+  },
+  {
+    "walk_date": "2025-10-22",
+    "distance": 10.37
+  },
+  {
+    "walk_date": "2025-10-23",
+    "distance": 12.51
+  },
+  {
+    "walk_date": "2025-10-27",
+    "distance": 12.8
+  },
+  {
+    "walk_date": "2025-10-29",
+    "distance": 10.99
+  },
+  {
+    "walk_date": "2025-11-03",
+    "distance": 9.42
+  },
+  {
+    "walk_date": "2025-11-05",
+    "distance": 12.97
+  },
+  {
+    "walk_date": "2025-11-07",
+    "distance": 8.65
+  },
+  {
+    "walk_date": "2025-11-10",
+    "distance": 10.26
+  },
+  {
+    "walk_date": "2025-11-12",
+    "distance": 12.57
+  },
+  {
+    "walk_date": "2025-11-18",
+    "distance": 5.86
+  },
+  {
+    "walk_date": "2025-12-08",
+    "distance": 5.27
+  }
 ]
