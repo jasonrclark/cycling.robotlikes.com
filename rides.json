@@ -23411,5 +23411,15 @@
     "created_at": "2025-12-19 14:19:55 UTC",
     "where_to": "Chilly Loop",
     "distance": 4.9
+  },
+  {
+    "strava_id": 16805093256,
+    "ride_date": "2025-12-21",
+    "duration": 1624,
+    "average_speed": 11.7,
+    "max_speed": 33.08,
+    "created_at": "2025-12-21 09:38:41 UTC",
+    "where_to": "Brisk Way to Wake Up",
+    "distance": 5.06
   }
 ]

@@ -23,13 +23,14 @@ outs = `#{cmd}`
 new_rides = JSON.parse(outs)
 
 rides.concat(new_rides.map do |ride| {
+      "strava_id": ride["id"],
       "ride_date": ride["start_date_local"].gsub(/ .*/, ""),
       "duration": ride["elapsed_time"],
       "average_speed": (ride["average_speed"] * 2.23694).round(2),
       "max_speed": (ride["max_speed"] * 2.23694).round(2),
       "created_at": ride["start_date_local"],
       "where_to": ride["name"],
-      "distance": (ride["distance"] * 0.000621371).round(2)
+      "distance": (ride["distance"] * 0.000621371).round(2),
     }
   end
 )
