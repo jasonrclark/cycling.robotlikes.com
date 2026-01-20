@@ -23431,5 +23431,15 @@
     "created_at": "2026-01-16 12:36:39 UTC",
     "where_to": "Slow Lunch Ride",
     "distance": 4.99
+  },
+  {
+    "strava_id": 17098942167,
+    "ride_date": "2026-01-18",
+    "duration": 2120,
+    "average_speed": 11.99,
+    "max_speed": 38.61,
+    "created_at": "2026-01-18 15:30:30 UTC",
+    "where_to": "Chilly Sunny Spin",
+    "distance": 6.73
   }
 ]
