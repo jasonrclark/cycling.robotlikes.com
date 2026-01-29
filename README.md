@@ -50,19 +50,12 @@ You'll need:
 
 ### 🎪 Running the App
 
-**For local development**:
+To start the local development server:
 ```bash
 ./do-it
 ```
 
-This will start a local web server on port 9090 that handles Strava OAuth authentication and fetches your latest activities!
-
-**To serve the site locally**:
-```bash
-ruby serve.rb
-```
-
-Then visit `http://localhost:9090` and enjoy! 🎉
+This will set up your environment and start the server on port 9090. Follow the OAuth flow in your browser to authenticate with Strava and fetch your latest activities. Then visit the site and enjoy! 🎉
 
 ## 🛠️ Technology Stack
 
