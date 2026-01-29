@@ -55,11 +55,7 @@ You'll need:
 ./do-it
 ```
 
-This magical script will:
-- Start a local web server on port 9090
-- Open OAuth flow for Strava authentication
-- Fetch your latest activities
-- Display them in all their glory!
+This will start a local web server on port 9090 that handles Strava OAuth authentication and fetches your latest activities!
 
 **To serve the site locally**:
 ```bash
