@@ -35,6 +35,7 @@ A personal cycling activity tracker and visualization dashboard that pulls ride 
 - [Hammer.js](https://hammerjs.github.io/) - Touch gesture support
 - [chartjs-plugin-zoom](https://www.chartjs.org/chartjs-plugin-zoom/) - Chart zoom functionality
 - [strava-ruby-client](https://github.com/dblock/strava-ruby-client) - Strava API integration
+- [WEBrick](https://github.com/ruby/webrick) - HTTP server (explicitly required for Ruby 3.0+)
 
 ## Setup
 
