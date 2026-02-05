@@ -58,8 +58,12 @@ bundle install
 3. Set up environment variables:
 ```bash
 # Create tmp/env.sh with your Strava credentials
+# This file is automatically sourced by the ./do-it script
+mkdir -p tmp
+cat > tmp/env.sh << 'EOF'
 export STRAVA_CLIENT_ID="your_client_id"
 export STRAVA_CLIENT_SECRET="your_client_secret"
+EOF
 ```
 
 4. Run the local development server:
