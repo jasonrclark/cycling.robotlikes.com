@@ -1,4 +1,4 @@
-# Robot Likes Cycling
+# Robot Dislikes Cycling
 
 A personal cycling and walking statistics visualization website that displays interactive charts of activity data fetched from the Strava API.
 
