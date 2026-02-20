@@ -1,6 +1,6 @@
 # cycling.robotlikes.com
 
-A robot that likes cycling (and walking, apparently). Charts your Strava activities because spreadsheets are for cowards.
+A robot that likes cycling. Charts your Strava rides because spreadsheets are for cowards.
 
 ## Get it running
 
