@@ -9,6 +9,13 @@ A personal activity tracking site that pulls cycling and walking data from [Stra
 - Vanity stats: max, average, total distance; total hours/days; max/average speed.
 - Zoomable, interactive charts powered by [Chart.js](https://www.chartjs.org/).
 
+## How It Works
+
+1. **OAuth** — `./do-it` starts a local Ruby server (`serve.rb`) and prints a Strava authorization URL. Visiting that URL in your browser sends you through Strava's OAuth flow.
+2. **Fetch** — After you authorize, Strava redirects back to the local server with a short-lived access token. `serve.rb` hands it to the `latest` script, which calls the Strava API for activities newer than the last entry in `rides.json`.
+3. **Store** — `latest` converts the raw Strava data (metric units, epoch times) into the app's format and appends the results to `rides.json` (or `walks.json`). The server then commits and pushes the updated JSON to `main`.
+4. **Render** — The static HTML pages (`index.html`, `walking.html`) fetch the JSON at load time and use `code.js` + Chart.js to render the charts entirely in the browser—no backend needed at runtime.
+
 ## File Structure
 
 ```
