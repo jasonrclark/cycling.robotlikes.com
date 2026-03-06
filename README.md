@@ -1,0 +1,100 @@
+# cycling.robotlikes.com
+
+A personal stats dashboard for cycling and walking activities, powered by Strava and hosted on GitHub Pages.
+
+## Overview
+
+- Pulls activity data from the Strava API and stores it as JSON in the repo
+- Displays interactive charts for ride/walk distance, speed, and cumulative totals
+- Two pages: cycling (`index.html`) and walking (`walking.html`)
+- Deployed automatically to GitHub Pages on every push to `main`
+
+## Quick start
+
+Prerequisites:
+- Ruby (see `Gemfile` for gems: `strava-ruby-client`, `strava-ruby-cli`, `webrick`, etc.)
+- A Strava account with an API application ([create one here](https://www.strava.com/settings/api))
+
+Install dependencies:
+
+```sh
+bundle install
+```
+
+Set up credentials:
+
+```sh
+mkdir -p tmp
+cat > tmp/env.sh <<'EOF'
+export STRAVA_CLIENT_ID=your_client_id
+export STRAVA_CLIENT_SECRET=your_client_secret
+EOF
+```
+
+Run locally:
+
+```sh
+./do-it
+```
+
+This starts a local server on port 9090 and prints a Strava OAuth URL. Open that URL in your browser to authorize and fetch the latest rides. The server also handles the OAuth callback automatically.
+
+## Usage
+
+### Update ride data
+
+After authenticating via the OAuth flow (triggered by `./do-it`), the `latest` script fetches any new Strava activities since your most recent ride and appends them to `rides.json` (or `walks.json`), then commits and pushes.
+
+To inspect raw new-ride data before importing:
+
+```sh
+./new-to-old.sh   # pretty-prints key fields from new-rides.json using jq
+```
+
+## File structure
+
+```
+index.html        # Cycling stats page
+walking.html      # Walking stats page
+code.js           # Shared chart/display logic (Chart.js)
+rides.json        # Stored cycling activity data
+walks.json        # Stored walking activity data
+latest            # Ruby script: fetches new Strava activities → updates rides.json
+serve.rb          # Local dev server: handles Strava OAuth callback
+do-it             # Entrypoint: sources credentials and starts serve.rb
+new-to-old.sh     # Helper: inspect raw Strava JSON with jq
+new-rides.json    # Scratch file for raw Strava API responses
+Gemfile           # Ruby dependencies
+.github/
+  workflows/
+    static.yml    # GitHub Actions: deploy to GitHub Pages on push to main
+tmp/
+  env.sh          # Local credentials (gitignored)
+```
+
+## Configuration
+
+| Variable | Description |
+|---|---|
+| `STRAVA_CLIENT_ID` | Your Strava API application client ID |
+| `STRAVA_CLIENT_SECRET` | Your Strava API application client secret |
+
+Both are set in `tmp/env.sh` (sourced by `do-it`; this file is gitignored).
+
+## Deploy
+
+Any push to `main` triggers the `Deploy static content to Pages` GitHub Actions workflow, which uploads the repo root as a GitHub Pages artifact and deploys it. No manual deploy steps are needed.
+
+## Troubleshooting
+
+**OAuth callback fails locally**
+- Make sure `tmp/env.sh` exists and exports valid Strava credentials.
+- If running in a GitHub Codespace, the redirect URL is automatically set to the forwarded port URL.
+
+**No new rides appearing**
+- The `latest` script fetches activities created *after* the most recent `created_at` in `rides.json`. If your last ride is missing or has an old date, rides may not appear.
+- Check that your Strava token has `activity:read` scope.
+
+## License
+
+No license specified — personal project.
