@@ -38,6 +38,35 @@
         padding:20px;
         float:left;
       }
+
+      #insights {
+        clear:both;
+        margin-top:30px;
+        padding:20px;
+        border:1px solid #0B2161;
+        border-radius:6px;
+        background:#f5f7fc;
+      }
+
+      #insights h2 {
+        color:#0B2161;
+        margin-top:0;
+      }
+
+      #insights ul {
+        margin:0 0 10px 0;
+        padding-left:20px;
+      }
+
+      #insights li {
+        margin-bottom:6px;
+      }
+
+      #insights .insights-section-label {
+        font-weight:bold;
+        color:#0B2161;
+        margin:10px 0 4px 0;
+      }
     </style>
   </head>
   <body style="padding:20px;width:1100px;margin:0 auto;">
@@ -73,6 +102,14 @@
         <h3>Average: <span id="averageSpeed"></span></span></h3>
         <h3>Max: <span id="maxSpeed"></span></h3>
       </div>
+    </div>
+
+    <div id="insights" style="display:none">
+      <h2>🤖 AI Ride Insights</h2>
+      <div class="insights-section-label">Takeaways</div>
+      <ul id="insights-takeaways"></ul>
+      <div class="insights-section-label">Recommended Next Actions</div>
+      <ul id="insights-actions"></ul>
     </div>
 
     <script>
@@ -163,6 +200,21 @@
             elementName: 'maxSpeed',
             value: Math.max(...rides.map(r => r.max_speed)),
           });
+
+          const insights = generateRideInsights(rides);
+          const takeawaysList = document.getElementById('insights-takeaways');
+          const actionsList = document.getElementById('insights-actions');
+          insights.takeaways.forEach(t => {
+            const li = document.createElement('li');
+            li.textContent = t;
+            takeawaysList.appendChild(li);
+          });
+          insights.actions.forEach(a => {
+            const li = document.createElement('li');
+            li.textContent = a;
+            actionsList.appendChild(li);
+          });
+          document.getElementById('insights').style.display = 'block';
         });
 
     </script>
