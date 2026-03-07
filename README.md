@@ -94,6 +94,20 @@ This site deploys itself to [GitHub Pages](https://pages.github.com/) automatica
 
 Custom domain is set via the `CNAME` file pointing to `cycling.robotlikes.com`.
 
+## Security & Privacy
+
+Here's what lives in this repo and is therefore public:
+
+- **`rides.json` / `walks.json`** — your activity data (distances, speeds, dates, ride names). If your ride is named "Secret Donut Run", the world will know.
+- **`raw-rides.json`** — unprocessed Strava response data. Same deal.
+
+Here's what must **never** be committed:
+
+- **`tmp/env.sh`** — contains your `STRAVA_CLIENT_ID` and `STRAVA_CLIENT_SECRET`. The `tmp/` directory is gitignored for exactly this reason. Do not move these values anywhere else in the repo.
+- **Access tokens** — the OAuth token passed to `./latest` is temporary, but don't log it, hardcode it, or sneeze it into a file that gets committed.
+
+If you accidentally commit a secret: rotate it immediately at [strava.com/settings/api](https://www.strava.com/settings/api). Git history is forever, but tokens don't have to be.
+
 ## Why?
 
 Because keeping a training log in a spreadsheet is for people who don't have a website about a robot.
