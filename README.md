@@ -48,6 +48,8 @@ export STRAVA_CLIENT_ID=your_client_id_here
 export STRAVA_CLIENT_SECRET=your_client_secret_here
 ```
 
+> ⚠️ **Security note:** `tmp/` is in `.gitignore` for a reason. Do not commit `tmp/env.sh` or put your Strava credentials anywhere else in the repo. The Strava API will let you revoke tokens if something goes wrong, but "I accidentally pushed my secret to GitHub" is a much less fun story to tell than "I rode 40 miles on a Tuesday."
+
 ## Running Locally
 
 ```bash
