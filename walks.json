@@ -637,5 +637,37 @@
   {
     "walk_date": "2025-12-08",
     "distance": 5.27
+  },
+  {
+    "walk_date": "2026-01-05",
+    "distance": 3.58
+  },
+  {
+    "walk_date": "2026-01-06",
+    "distance": 5.23
+  },
+  {
+    "walk_date": "2026-01-07",
+    "distance": 4.84
+  },
+  {
+    "walk_date": "2026-01-12",
+    "distance": 4.1
+  },
+  {
+    "walk_date": "2026-01-15",
+    "distance": 6.18
+  },
+  {
+    "walk_date": "2026-01-21",
+    "distance": 3.8
+  },
+  {
+    "walk_date": "2026-01-28",
+    "distance": 3.18
+  },
+  {
+    "walk_date": "2026-03-17",
+    "distance": 6.38
   }
 ]
