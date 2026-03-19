@@ -1,56 +1,60 @@
 # cycling.robotlikes.com
 
-A small static site and data repository used to publish ride and walk data for cycling.robotlikes.com.
+A humble little static site that answers the burning question: *"How many miles did I ride/walk, and can I make a website about it?"* (Answer: yes, apparently.)
+
+This repo publishes ride and walk data for [cycling.robotlikes.com](https://cycling.robotlikes.com). It will not help you go faster uphill. Sorry.
 
 ## What this repo contains
 
-- `index.html` — main site
-- `code.js` — site JavaScript
-- `walking.html` — walking-specific page
-- `rides.json`, `raw-rides.json`, `new-rides.json` — ride data files (large JSON datasets)
-- `walks.json` — walking data
-- `serve.rb`, `Gemfile`, `Gemfile.lock` — small Ruby server and dependencies
-- `CNAME` — custom domain for GitHub Pages
-- favicons and other static assets
+- `index.html` — the main site (where the magic™ happens)
+- `code.js` — JavaScript that makes the site do things beyond staring blankly at you
+- `walking.html` — for when the legs said "no more pedaling today"
+- `rides.json`, `raw-rides.json`, `new-rides.json` — ride data files; large, lumpy JSON blobs full of suffering and triumph
+- `walks.json` — walking data (legs: still attached, cadence: suspiciously low)
+- `serve.rb`, `Gemfile`, `Gemfile.lock` — a small Ruby server and its dependency entourage
+- `CNAME` — one line of text that convinces GitHub Pages to use a real domain name
+- favicons and other static assets — tiny images that browsers argue about
 
 ## Run locally
 
-The site is static and can be viewed by opening `index.html` in a browser, but some features may require serving over HTTP. Two simple options:
+The site is static and can be opened directly in a browser, though some features may require HTTP (browsers are dramatic like that). Two equally valid life choices:
 
-1) Use a simple static HTTP server (Python 3)
+**Option 1 — Python 3** *(the "I don't want to install anything" option)*
 
 ```bash
 python3 -m http.server 8000
-# then visit http://localhost:8000
+# then visit http://localhost:8000 and feel like a developer
 ```
 
-2) If you prefer Ruby and `serve.rb` is present, try:
+**Option 2 — Ruby** *(the "I have opinions about web servers" option)*
 
 ```bash
 ruby serve.rb
-# or, if it requires Bundler:
-# bundle install
-# ruby serve.rb
+# or, if Bundler is involved (it usually is):
+bundle install
+ruby serve.rb
 ```
 
-If `serve.rb` needs specific arguments or environment variables, update this README with them.
+If `serve.rb` needs specific arguments or environment variables, update this README — the current author clearly ran out of steam at this point.
 
 ## Data files
 
-This repository includes several large JSON data files (`rides.json`, `raw-rides.json`, `new-rides.json`, `walks.json`). They power the site's content and visualizations. If these are regenerated or replaced, keep the same filenames or update the site code accordingly. For large data updates, prefer adding a script that validates/ingests the data.
+The repo includes several suspiciously large JSON files (`rides.json`, `raw-rides.json`, `new-rides.json`, `walks.json`). These power the site's content and visualizations, and represent a non-trivial number of hours outdoors instead of doing something sensible like watching TV.
+
+If you regenerate or replace them, keep the same filenames — or update the site code and brace for consequences. For large data updates, please write a script that validates/ingests the data, because future-you deserves kindness.
 
 ## Deployment
 
-The presence of a `CNAME` file indicates the site is likely published via GitHub Pages to a custom domain. To publish changes, update the site files and push to the `main` branch (or the branch configured for Pages) and ensure Pages settings are correct.
+There's a `CNAME` file, which is GitHub Pages' way of saying "yes, this is a real website." Push changes to the `main` branch (or whichever branch Pages is pointed at), make sure Pages settings are correct, and wait approximately 30 seconds while pretending you're not refreshing the page repeatedly.
 
 ## Contributing
 
-- Open an issue describing the change or data update.
-- Send a pull request with the modification; for large data updates, include a script that ingests/validates the data.
+- Open an issue describing what you want to change or fix. Try to make it clearer than "the thing is broken."
+- Send a pull request with your changes. For large data updates, please include a script that ingests/validates the data — nobody wants to review 50,000 lines of JSON diff.
 
 ## License
 
-Add a `LICENSE` file or update this section with the project license.
+This section intentionally left vague. Add a `LICENSE` file when the existential question of who owns a list of bike rides is resolved.
 
 ---
-Notes: This change only adds documentation and does not modify existing code or data files. If maintainers prefer more specific run instructions for `serve.rb` or notes about how the JSON files are generated, I can update the README accordingly.
+*No rides were harmed in the making of this website.*
