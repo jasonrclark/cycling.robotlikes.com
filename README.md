@@ -1,56 +1,59 @@
-# cycling.robotlikes.com
+# 🤖🚴 cycling.robotlikes.com
 
-A personal cycling stats website that visualizes ride data pulled from [Strava](https://www.strava.com/). Deployed to GitHub Pages at [cycling.robotlikes.com](https://cycling.robotlikes.com).
+A robot who apparently has legs and opinions about mileage. This is a personal cycling stats site that sucks ride data out of [Strava](https://www.strava.com/) and turns it into pretty charts so you can feel good (or bad) about yourself. Deployed to GitHub Pages at [cycling.robotlikes.com](https://cycling.robotlikes.com) for the whole internet to admire (or ignore).
 
-## What it does
+## 📊 What it does
 
-Displays charts and summary stats for cycling (and walking) activity:
+Stares at your Strava data and judges you — lovingly — with charts:
 
-- **Per-ride distance** – bar chart of each ride's distance in miles
-- **Cumulative distance** – scatter chart of total miles over time
-- **Average speed** – scatter chart of average speed per ride
+- 🚵 **Per-ride distance** – bar chart of each ride's distance in miles (some of those bars are embarrassingly short)
+- 📈 **Cumulative distance** – scatter chart of total miles over time (the line goes up! mostly!)
+- 💨 **Average speed** – scatter chart of average speed per ride (yes, that one slow day is still there)
 
-Summary vanity stats include max distance, average distance, ride count, total miles, total hours, total days, and max/average speed.
+Plus a wall of vanity stats: max distance, average distance, ride count, total miles, total hours, total days, and max/average speed — perfect for bragging at dinner parties nobody invited you to.
 
-## Files
+Oh, and there's a 🚶 [walking page](https://cycling.robotlikes.com/walking.html) too, for when the robot's legs get tired.
 
-| File | Purpose |
-|------|---------|
-| `index.html` | Main cycling stats page |
-| `walking.html` | Walking stats page |
-| `code.js` | Shared charting/display logic |
-| `rides.json` | Processed cycling ride data |
-| `walks.json` | Processed walking data |
-| `latest` | Ruby script to fetch new rides from Strava and append to `rides.json` |
-| `serve.rb` | Local WEBrick server that handles the Strava OAuth callback and triggers a data refresh |
-| `do-it` | Shell script to source env vars and start `serve.rb` |
-| `new-to-old.sh` | `jq` snippet to convert raw Strava activity JSON to the old ride format |
-| `raw-rides.json` | Raw Strava API response (scratch data) |
-| `new-rides.json` | Intermediate new-rides file |
+## 🗂️ Files (a tour of the chaos)
 
-## Updating ride data
+| File | What it's doing here |
+|------|----------------------|
+| `index.html` | The main show 🎪 Cycling charts live here |
+| `walking.html` | For when the bike is in the shop 🦶 |
+| `code.js` | The JavaScript that makes the charts go brrr 📉 |
+| `rides.json` | All your precious ride data, lovingly formatted 🏅 |
+| `walks.json` | All your precious walk data, lovingly formatted 🥾 |
+| `latest` | Ruby script that begs Strava for new rides and staples them onto `rides.json` 🙏 |
+| `serve.rb` | A tiny WEBrick server that catches the Strava OAuth callback and kicks off a data refresh 🎣 |
+| `do-it` | Shell script that yells "let's go!" and fires up `serve.rb` 🚀 |
+| `new-to-old.sh` | A `jq` one-liner for converting raw Strava JSON to the old format. It works, don't touch it 🧙 |
+| `raw-rides.json` | Raw Strava API spew, kept around just in case 🗑️ |
+| `new-rides.json` | Intermediate new-rides file, the caterpillar before the butterfly 🦋 |
 
-Ride data is updated by re-authorizing with Strava via OAuth:
+## 🔄 Updating ride data
 
-1. Copy `.env` credentials into `tmp/env.sh` (Strava client ID and secret).
-2. Run `./do-it` — this starts a local server and prints a Strava authorization URL.
-3. Open the URL in a browser and authorize the app.
-4. The callback handler fetches new activities, updates `rides.json`, and commits + pushes the result.
+The data refresh flow is a delightful OAuth dance 💃:
 
-### Environment variables
+1. 🔑 Drop your Strava credentials into `tmp/env.sh` (client ID and secret — guard these with your life, or at least with `.gitignore`).
+2. 🏃 Run `./do-it` — a local server wakes up and prints a Strava authorization URL.
+3. 🌐 Open that URL in your browser and click the "Yes Strava, I trust this sketchy localhost server" button.
+4. 🎉 The callback handler fetches your new rides, updates `rides.json`, and auto-commits + pushes. Magic!
 
-| Variable | Description |
-|----------|-------------|
-| `STRAVA_CLIENT_ID` | Your Strava API application client ID |
-| `STRAVA_CLIENT_SECRET` | Your Strava API application client secret |
+### 🔐 Environment variables
 
-## Local development
+| Variable | What it is |
+|----------|------------|
+| `STRAVA_CLIENT_ID` | Your Strava API application client ID (don't leak it, please 🙈) |
+| `STRAVA_CLIENT_SECRET` | Your Strava API application client secret (seriously, don't 🙉) |
+
+## 💻 Local development
 
 ```bash
 bundle install
-# then open index.html directly in a browser, or serve with any static file server
+# Then crack open index.html in a browser, or spin up any static file server you trust
+# (the robot is not picky)
 ```
 
-## Deployment
+## 🚢 Deployment
 
-Pushes to `main` automatically deploy the site to GitHub Pages via the workflow in `.github/workflows/static.yml`.
+Push to `main` and GitHub Actions takes over like a very responsible intern — automatically deploying to GitHub Pages via `.github/workflows/static.yml`. Zero effort, maximum glory. 🏆
