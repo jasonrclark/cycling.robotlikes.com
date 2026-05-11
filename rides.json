@@ -23451,5 +23451,25 @@
     "created_at": "2026-05-03 16:24:10 UTC",
     "where_to": "Back after the Back",
     "distance": 5.28
+  },
+  {
+    "strava_id": 18443585167,
+    "ride_date": "2026-05-09",
+    "duration": 2159,
+    "average_speed": 11.42,
+    "max_speed": 37.22,
+    "created_at": "2026-05-09 12:16:53 UTC",
+    "where_to": "Back at the Five ‘n Climb",
+    "distance": 6.58
+  },
+  {
+    "strava_id": 18459242794,
+    "ride_date": "2026-05-10",
+    "duration": 1994,
+    "average_speed": 11.96,
+    "max_speed": 34.94,
+    "created_at": "2026-05-10 19:17:41 UTC",
+    "where_to": "Two Days in a Row? In This Economy?!",
+    "distance": 6.31
   }
 ]
