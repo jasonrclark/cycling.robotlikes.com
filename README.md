@@ -63,10 +63,11 @@ bundle install
 ## Development
 
 - Front-end pages fetch local JSON files (`rides.json`, `walks.json`) at runtime.
-- `latest` converts Strava API activity values to display units and appends new rides.
+- `latest` converts Strava API cycling activity values to display units and appends new rides to `rides.json` (walking data is maintained separately in `walks.json`).
 - `serve.rb` handles OAuth callback and can trigger ride updates/commit flow.
 - The `main` branch is auto-deployed to GitHub Pages through Actions.
 - This repository currently has no dedicated automated test suite.
+- If `WEBrick` is missing in your local Ruby install, run `bundle install` and execute commands through `bundle exec`.
 
 ## Contributing
 
