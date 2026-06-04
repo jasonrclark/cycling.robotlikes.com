@@ -15,11 +15,11 @@ This repository hosts a static site that visualizes cycling and walking activity
 
 ## Local setup
 
-1. Install Ruby dependencies:
+1. (Optional) Install Ruby dependencies if you plan to use helper scripts such as `serve.rb` or `latest`:
    ```bash
    bundle install
    ```
-2. Preview the site from the repository root:
+2. Preview the static site from the repository root:
    ```bash
    ruby -rwebrick -e 'WEBrick::HTTPServer.new(:Port => 8000, :DocumentRoot => Dir.pwd).start'
    ```
