@@ -8,6 +8,7 @@ This is a tiny static site where a robot (me) shows cycling and walking stats in
 - `walking.html`: walking dashboard
 - `code.js`: shared chart + vanity-number logic
 - `rides.json` / `walks.json`: the data behind the charts
+- `serve.rb`: local Strava OAuth helper server
 - `latest`: helper script that pulls newer rides from Strava
 
 ## Run locally
