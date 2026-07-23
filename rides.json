@@ -23471,5 +23471,145 @@
     "created_at": "2026-05-10 19:17:41 UTC",
     "where_to": "Two Days in a Row? In This Economy?!",
     "distance": 6.31
+  },
+  {
+    "strava_id": 18536721235,
+    "ride_date": "2026-05-16",
+    "duration": 2138,
+    "average_speed": 11.7,
+    "max_speed": 36.55,
+    "created_at": "2026-05-16 18:35:18 UTC",
+    "where_to": "Chilly Evening Spin",
+    "distance": 6.62
+  },
+  {
+    "strava_id": 18708465865,
+    "ride_date": "2026-05-29",
+    "duration": 2105,
+    "average_speed": 12.3,
+    "max_speed": 36.06,
+    "created_at": "2026-05-29 16:40:41 UTC",
+    "where_to": "Post Work Loop",
+    "distance": 6.76
+  },
+  {
+    "strava_id": 18736137643,
+    "ride_date": "2026-05-31",
+    "duration": 1986,
+    "average_speed": 12.14,
+    "max_speed": 35.21,
+    "created_at": "2026-05-31 16:57:30 UTC",
+    "where_to": "Mid-Homework Break",
+    "distance": 6.51
+  },
+  {
+    "strava_id": 18817269803,
+    "ride_date": "2026-06-06",
+    "duration": 4838,
+    "average_speed": 13.52,
+    "max_speed": 43.08,
+    "created_at": "2026-06-06 17:04:48 UTC",
+    "where_to": "Post Graduation Party Wind-Down",
+    "distance": 17.15
+  },
+  {
+    "strava_id": 18952156466,
+    "ride_date": "2026-06-16",
+    "duration": 1796,
+    "average_speed": 12.46,
+    "max_speed": 32.0,
+    "created_at": "2026-06-16 18:33:07 UTC",
+    "where_to": "First Ride after Tuneup",
+    "distance": 5.92
+  },
+  {
+    "strava_id": 18978951178,
+    "ride_date": "2026-06-18",
+    "duration": 1975,
+    "average_speed": 12.59,
+    "max_speed": 35.3,
+    "created_at": "2026-06-18 18:11:53 UTC",
+    "where_to": "New Saddle, Who Dis?",
+    "distance": 6.59
+  },
+  {
+    "strava_id": 19012828266,
+    "ride_date": "2026-06-21",
+    "duration": 3196,
+    "average_speed": 9.66,
+    "max_speed": 38.16,
+    "created_at": "2026-06-21 08:42:43 UTC",
+    "where_to": "First Kruger of the Year",
+    "distance": 8.47
+  },
+  {
+    "strava_id": 19079949438,
+    "ride_date": "2026-06-26",
+    "duration": 3107,
+    "average_speed": 9.89,
+    "max_speed": 44.38,
+    "created_at": "2026-06-26 17:54:38 UTC",
+    "where_to": "Post-Work Climb",
+    "distance": 8.42
+  },
+  {
+    "strava_id": 19105482403,
+    "ride_date": "2026-06-28",
+    "duration": 1811,
+    "average_speed": 12.81,
+    "max_speed": 42.86,
+    "created_at": "2026-06-28 19:24:49 UTC",
+    "where_to": "Sunday Spin",
+    "distance": 6.4
+  },
+  {
+    "strava_id": 19286055311,
+    "ride_date": "2026-07-12",
+    "duration": 1924,
+    "average_speed": 12.69,
+    "max_speed": 35.57,
+    "created_at": "2026-07-12 11:02:28 UTC",
+    "where_to": "Wake Up Loop",
+    "distance": 6.64
+  },
+  {
+    "strava_id": 19289464451,
+    "ride_date": "2026-07-12",
+    "duration": 4576,
+    "average_speed": 14.11,
+    "max_speed": 43.71,
+    "created_at": "2026-07-12 18:41:20 UTC",
+    "where_to": "Two Rides? In One Day?? In This Economy?!",
+    "distance": 17.12
+  },
+  {
+    "strava_id": 19310479134,
+    "ride_date": "2026-07-14",
+    "duration": 3139,
+    "average_speed": 10.1,
+    "max_speed": 36.33,
+    "created_at": "2026-07-14 07:10:39 UTC",
+    "where_to": "Wake Up to Kruger",
+    "distance": 8.5
+  },
+  {
+    "strava_id": 19382044845,
+    "ride_date": "2026-07-19",
+    "duration": 8883,
+    "average_speed": 12.21,
+    "max_speed": 62.28,
+    "created_at": "2026-07-19 11:46:33 UTC",
+    "where_to": "Sunday Long Loop",
+    "distance": 28.57
+  },
+  {
+    "strava_id": 19396939422,
+    "ride_date": "2026-07-20",
+    "duration": 1944,
+    "average_speed": 12.26,
+    "max_speed": 36.46,
+    "created_at": "2026-07-20 18:36:09 UTC",
+    "where_to": "Six after Six",
+    "distance": 6.45
   }
 ]
