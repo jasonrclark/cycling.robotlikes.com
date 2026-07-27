@@ -23611,5 +23611,25 @@
     "created_at": "2026-07-20 18:36:09 UTC",
     "where_to": "Six after Six",
     "distance": 6.45
+  },
+  {
+    "strava_id": 19464176323,
+    "ride_date": "2026-07-25",
+    "duration": 19833,
+    "average_speed": 13.62,
+    "max_speed": 31.45,
+    "created_at": "2026-07-25 08:02:09 UTC",
+    "where_to": "RACC 2026 - Metric Century",
+    "distance": 64.32
+  },
+  {
+    "strava_id": 19479821776,
+    "ride_date": "2026-07-26",
+    "duration": 4851,
+    "average_speed": 13.69,
+    "max_speed": 31.72,
+    "created_at": "2026-07-26 16:49:34 UTC",
+    "where_to": "No Rest for the Weary 💪🏻",
+    "distance": 17.07
   }
 ]
