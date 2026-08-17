@@ -8,7 +8,8 @@ Static charts for cycling and walking activity data, published at
 - `index.html` renders cycling charts from `rides.json`.
 - `walking.html` renders walking charts from `walks.json`.
 - `code.js` contains the shared Chart.js helpers used by both pages.
-- `latest` fetches newer Strava activities and appends them to `rides.json`.
+- `latest` is a Ruby script that fetches newer Strava activities and appends
+  them to `rides.json`.
 - `serve.rb` starts a local OAuth callback server for updating ride data.
 - `.github/workflows/static.yml` deploys the static site to GitHub Pages.
 
@@ -39,6 +40,9 @@ bundle exec ruby serve.rb
 
 Follow the printed Strava authorization URL. After authorization, the callback
 updates `rides.json` with new activities.
+
+Walking data is stored in `walks.json`; this repository does not include an
+automated update script for that file.
 
 ## Deployment
 
