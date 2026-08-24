@@ -38,6 +38,13 @@ Required environment variables:
 - `STRAVA_CLIENT_ID`
 - `STRAVA_CLIENT_SECRET`
 
+Example:
+
+```bash
+export STRAVA_CLIENT_ID=your_client_id
+export STRAVA_CLIENT_SECRET=your_client_secret
+```
+
 Then run:
 
 ```bash
