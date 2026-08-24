@@ -30,7 +30,8 @@ commits the updated data.
 
 - `rides.json` contains the cycling data displayed by `index.html`.
 - `walks.json` contains the walking data displayed by `walking.html`.
-- `latest` fetches and normalizes new cycling activities from Strava.
+- `latest` is the Ruby script invoked by `serve.rb` after the Strava OAuth
+  callback; it fetches and normalizes new cycling activities.
 
 The site is deployed to GitHub Pages by `.github/workflows/static.yml` whenever
 changes are pushed to `main`.
