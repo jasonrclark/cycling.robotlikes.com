@@ -9,7 +9,7 @@ Static site for visualizing cycling and walking activity data.
 - `code.js`: shared charting and helper functions used by both pages
 - `rides.json`: cycling data source
 - `walks.json`: walking data source
-- `latest`: Ruby script that fetches new rides from Strava and appends them to `rides.json`
+- `latest`: Ruby script invoked by `serve.rb`'s `/auth` handler to fetch new rides from Strava and append them to `rides.json`
 - `.github/workflows/static.yml`: GitHub Pages deployment workflow
 
 ## Local development
