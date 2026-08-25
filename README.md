@@ -10,7 +10,7 @@ It charts cycling and walking activity data from local JSON files using Chart.js
 - `code.js` contains shared chart and display helpers.
 - `rides.json` and `walks.json` contain the activity data used by the site.
 - `latest` fetches newer Strava cycling activities and appends them to `rides.json`.
-- `serve.rb` runs a local WEBrick server and handles the Strava OAuth callback used by `latest`.
+- `serve.rb` runs a local WEBrick server, handles the Strava OAuth callback, and calls `latest` with the returned access token.
 - `do-it` loads `tmp/env.sh` and starts `serve.rb`.
 
 ## Local setup
@@ -47,8 +47,8 @@ Start the OAuth helper through `do-it`:
 ./do-it
 ```
 
-Open the printed Strava authorization URL. After authorization, the callback fetches new activities,
-uses `latest` to update `rides.json`, commits the change, and pushes it to `main`.
+Open the printed Strava authorization URL. After authorization, `serve.rb` automatically calls
+`latest`, updates `rides.json`, commits the change, and pushes it to `main`.
 
 ## Data format
 
