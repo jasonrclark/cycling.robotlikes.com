@@ -6,7 +6,7 @@ site that charts my Strava rides (and walks) over time.
 ## How it works
 
 - `rides.json` / `walks.json` hold the historical activity data used by the
-  site.
+  site (`walks.json` is maintained separately and isn't updated by `latest`).
 - `index.html` and `walking.html` render charts of that data using
   [Chart.js](https://www.chartjs.org/), loaded via CDN.
 - `code.js` contains the client-side logic that builds the charts.
