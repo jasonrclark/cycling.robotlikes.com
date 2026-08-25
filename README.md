@@ -26,7 +26,8 @@ The site will be available at <http://localhost:9090>.
 Ride data is stored in `rides.json` and imported from Strava. Set
 `STRAVA_CLIENT_ID` and `STRAVA_CLIENT_SECRET`, then start `serve.rb` and open
 the authorization URL printed in the terminal. After authorization, the server
-runs `latest` to append new activities to `rides.json`.
+runs the repository's `latest` Ruby script to append new activities to
+`rides.json`.
 
 Walking data is stored separately in `walks.json`.
 
