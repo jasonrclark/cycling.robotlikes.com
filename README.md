@@ -17,7 +17,7 @@ python3 -m http.server
 
 - `rides.json` contains the cycling activities shown on the main dashboard.
 - `walks.json` contains the walking activities shown on the walking dashboard.
-- `latest` retrieves cycling activities from Strava and appends them to
+- The `./latest` Ruby script retrieves cycling activities from Strava and appends them to
   `rides.json`.
 
 To update ride data from Strava, install the Ruby dependencies and provide
