@@ -23641,5 +23641,25 @@
     "created_at": "2026-08-09 09:51:29 UTC",
     "where_to": "AQI Back Down 💨",
     "distance": 6.61
+  },
+  {
+    "strava_id": 19774051456,
+    "ride_date": "2026-08-16",
+    "duration": 4822,
+    "average_speed": 14.24,
+    "max_speed": 62.95,
+    "created_at": "2026-08-16 17:50:51 UTC",
+    "where_to": "Sneak a Ride Between Trips",
+    "distance": 17.49
+  },
+  {
+    "strava_id": 19871018454,
+    "ride_date": "2026-08-23",
+    "duration": 3122,
+    "average_speed": 10.02,
+    "max_speed": 41.88,
+    "created_at": "2026-08-23 13:36:09 UTC",
+    "where_to": "Kruger",
+    "distance": 8.51
   }
 ]
